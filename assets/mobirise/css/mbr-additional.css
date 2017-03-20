@@ -607,6 +607,8 @@ h6,
 }
 
 
+
+
 #menu-17 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -689,17 +691,26 @@ h6,
 #content1-1f H4 {
   color: #273a59;
 }
-#header3-1g .mbr-section-title,
-#header3-1g .mbr-section-subtitle {
-  text-align: center;
+#msg-box1-1i H3 {
+  font-size: 36px;
 }
-#header3-1g H3 {
+#msg-box1-1i SPAN {
   color: #273a59;
   font-size: 36px;
 }
-#header3-1g SMALL {
+#content1-1h H4 {
   color: #273a59;
+  font-size: 24px;
 }
-#header3-1g I {
-  font-size: 12px;
+#content1-1h H2 {
+  color: #273a59;
+  font-family: 'Oxygen', sans-serif;
+}
+#content1-1h P {
+  color: #273a59;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 11px;
+}
+#content1-1h UL {
+  color: #273a59;
 }

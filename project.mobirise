@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 54,
+    "uniqCompNum": 55,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-32-128x128.png",
     "noImageResize": "",
@@ -802,34 +802,43 @@
           }
         },
         {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            "H3": {
-              "color": "#273a59",
-              "font-size": "36px"
-            },
-            "SMALL": {
-              "color": "#273a59"
-            },
-            "I": {
-              "font-size": "12px"
-            }
-          },
           "_tags": [
             "Theme"
           ],
-          "_name": "header3",
-          "_anchor": "header3-1g",
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-1i",
           "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff",
-            "showMeta": true
+            "paddingTop": 3,
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": false,
+            "showText": false,
+            "showTitle": true
           },
-          "title": "Specifications",
-          "meta": "<i>(Preliminary - Subject to Change)</i>"
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">SEE LIVE DEMO</a>",
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "title": "<span style=\"font-weight: normal;\">Specifications *</span><br>",
+          "_styles": {
+            "H3": {
+              "font-size": "36px"
+            },
+            "SPAN": {
+              "color": "#273a59",
+              "font-size": "36px"
+            }
+          }
         },
         {
           "_tags": [
@@ -842,7 +851,27 @@
             "paddingBottom": "7",
             "bgColor": "#ffffff"
           },
-          "text": "<h4>LED Light Stick</h4><ul><li>Omni-directional constant light source</li><li>Beam Angle: 360°</li><li>CRI: ≥90</li><li>Color Temperature:  Daylight 5500k</li><li>Output: 4500 lumens (dimmable)</li><li>Controlled by 2.4 GHz wireless remote control</li><li>Power: 48w</li><li>Input: 24v / 2.1a</li><li>Dimensions: 12.5\" x 3.1\"</li><li>Weight: 8 oz</li></ul><div><br></div><h4>High-Capacity Rechargeable Battery Pack</h4><ul><li>Battery type: Lithium ion&nbsp;</li><li>96 Watt-hour (26,400 mAh) Capacity</li><li>Can power the LED Light Stick for up to 2 hours of continuous use</li><li>Can provide an extra 30-40 hours of operation time for an iPad connected with USB cable (USB Cable not included)</li><li>Status display showing remaining capacity bars and output voltage</li><li>Built-in USB Power Port for Charging or Powering iPad, iPhone, PDA's, Cell Phones, Media Players, or anything that can be charged with a USB Cable</li><li>Multi output voltages controlled by output cables (24v for LED Light Stick, 5V for USB-connected devices)</li><li>Maximum Output: 24V Port: 2.5A; USB Port 2.1A</li><li>Dimensions: 8.5\" x 5.5\" x 1\"&nbsp;</li><li>Weight: 1.8 lbs.</li></ul>"
+          "text": "<h2><span style=\"font-size: 24px; line-height: 1.1;\">LED Light Stick</span><br></h2><ul><li>Omni-directional constant light source</li><li>Beam Angle: 360°</li><li>CRI: ≥90</li><li>Color Temperature:  Daylight 5500k</li><li>Output: 4500 lumens (dimmable)</li><li>Controlled by 2.4 GHz wireless remote control</li><li>Power: 48w</li><li>Input: 24v / 2.1a</li><li>Dimensions: 12.5\" x 3.1\"</li><li>Weight: 8 oz</li></ul><div><br></div><h4>High-Capacity Rechargeable Battery Pack</h4><ul><li>Battery type: Lithium ion&nbsp;</li><li>96 Watt-hour (26,400 mAh) Capacity</li><li>Can power the LED Light Stick for up to 2 hours of continuous use</li><li>Can provide an extra 30-40 hours of operation time for an iPad connected with USB cable (USB Cable not included)</li><li>Status display showing remaining capacity bars and output voltage</li><li>Built-in USB Power Port for Charging or Powering iPad, iPhone, PDA's, Cell Phones, Media Players, or anything that can be charged with a USB Cable</li><li>Multi output voltages controlled by output cables (24v for LED Light Stick, 5V for USB-connected devices)</li><li>Maximum Output: 24V Port: 2.5A; USB Port 2.1A</li><li>Dimensions: 8.5\" x 5.5\" x 1\"&nbsp;</li><li>Weight: 1.8 lbs.</li></ul><p><br></p><p>* Preliminary - Subject to Change</p>",
+          "_styles": {
+            "H4": {
+              "color": "#273a59",
+              "font-size": "24px"
+            },
+            "H2": {
+              "color": "#273a59",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            },
+            "P": {
+              "color": "#273a59",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-size": "11px"
+            },
+            "UL": {
+              "color": "#273a59"
+            }
+          }
         }
       ]
     }
