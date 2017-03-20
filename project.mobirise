@@ -735,12 +735,22 @@
             "paddingBottom": "1",
             "images": [
               {
-                "tags": "Beautiful",
+                "tags": "Responsive",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/light-stick-kit-319-2000x2664-800x1065.png",
-                "image": "@PROJECT_PATH@/assets/images/light-stick-kit-319-2000x2664.png",
+                "thumb": "@PROJECT_PATH@/assets/images/light-stick-kit-small-2000x2666-800x1066.png",
+                "image": "@PROJECT_PATH@/assets/images/light-stick-kit-small-2000x2666.png",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/light-stick-on-tripod-off-600x800-2000x2666-800x1066.png",
+                "image": "@PROJECT_PATH@/assets/images/light-stick-on-tripod-off-600x800-2000x2666.png",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -753,16 +763,6 @@
                 "image": "@PROJECT_PATH@/assets/images/light-stick-on-tripod-on-600x800-2000x2666.png",
                 "caption": "Type caption here",
                 "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/light-stick-on-tripod-on-800x1066-800x1066.png",
-                "image": "@PROJECT_PATH@/assets/images/light-stick-on-tripod-on-800x1066.png",
-                "caption": "Type caption here",
-                "active": true
               }
             ],
             "spacing": "2",
