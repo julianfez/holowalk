@@ -1,7 +1,7 @@
 {
   "settings": {
-    "name": "holowalk",
-    "currentPage": "index.html",
+    "name": "HoloWalk - Main",
+    "currentPage": "holowalk_light_stick.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -12,20 +12,22 @@
         "infoColor": "#7e9b9f",
         "warningColor": "#f3c649",
         "dangerColor": "#f28281",
-        "titleFont": "Lato",
-        "subtitleFont": "Lato",
+        "titleFont": "Oxygen",
+        "subtitleFont": "Oxygen",
         "textFont": "Lato",
-        "isRoundedButtons": true,
+        "isRoundedButtons": false,
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": true,
         "isRtl": false
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 18,
+    "uniqCompNum": 54,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-32-128x128.png",
-    "noImageResize": ""
+    "noImageResize": "",
+    "google-analytics": "",
+    "path": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -45,8 +47,8 @@
           "_name": "msg-box5",
           "_styles": {
             "H3": {
-              "font-family": "'Lato', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
               "font-size": "30px",
               "color": "#273a59",
               "text-align": "center"
@@ -121,8 +123,8 @@
             },
             ".navbar-caption": {
               "color": "#ffffff",
-              "font-family": "'Lato', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
               "font-size": "16px"
             },
             ".navbar-toggler": {
@@ -133,8 +135,8 @@
             },
             ".link, .dropdown-item": {
               "color": "#273a59",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
-              "font-family": "'Lato', sans-serif"
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-family": "'Oxygen', sans-serif"
             },
             ".link": {
               "font-size": "0.8rem"
@@ -177,23 +179,23 @@
             "bgColor": "#ffffff",
             "fontSize": "0.8",
             "fontName": {
-              "name": "Lato",
-              "url": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
-              "css": "'Lato', sans-serif"
+              "name": "Oxygen",
+              "url": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "css": "'Oxygen', sans-serif"
             },
             "fontColor": "#273a59",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
+            "transparent": false,
             "sticky": true,
-            "logo": false,
-            "showBrand": true,
+            "logo": true,
+            "showBrand": false,
             "collapsed": true,
             "hideButtons": true
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo%20blue%20with%20type-124x128.png",
+              "src": "@PROJECT_PATH@/assets/images/logo-blue-with-type-124x128.png",
               "height": 128,
               "alt": "HoloWalk",
               "link": "index.html",
@@ -207,7 +209,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-primary\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">&nbsp; Capturing Time in Spaces℠<br></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">faq</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">client login</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"faq.html\">faq</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">client login</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_styles": {
@@ -231,8 +233,8 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-7",
           "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingTop": "3",
+            "paddingBottom": "3",
             "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x1200.jpg",
@@ -254,79 +256,593 @@
           "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
         },
         {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "_styles": {
+            ".card-block P": {
+              "text-align": "left"
+            },
+            ".mbr-section-title": {
+              "color": "#273a59",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#8c8c8c"
+            }
+          },
+          "testimonial": [
+            {
+              "text": "<p><a href=\"http://#\"><iframe id=\"holobuilderIframe\" width=\"500\" height=\"375\" src=\"https://holobuilder.com/app/index.html?e=1&amp;p=5812526379958272#player/5812526379958272?options=273\" border=\"0\" frameborder=\"0\" style=\"border: 0\" allowfullscreen=\"\" mozallowfullscreen=\"\" webkitallowfullscreen=\"\" title=\"Virtual Reality made with HoloBuilder\"></iframe></a></p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face3.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Abanoub S.",
+              "authorBio": "User"
+            },
+            {
+              "text": "<p>Bullet #1</p><p>Bullet #2</p><p>Bullet 3</p><p>Bullet 4</p><p>Bullet 5</p><p>Bullet 6</p><p>Bullet 7</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face1.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Suffian A.",
+              "authorBio": "User"
+            }
+          ],
+          "_anchor": "testimonials1-j",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "count": "2",
+            "showImages": false,
+            "showName": false,
+            "showBio": false,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": true
+          },
+          "title": "<span style=\"font-weight: normal;\">What is a </span>HoloWalk<span style=\"font-weight: normal;\"> and what can I do with it?</span>",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-q",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#273a59",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright © 2017 HoloWalk"
+        }
+      ]
+    },
+    "faq.html": {
+      "settings": {
+        "title": "HoloWalk - Frequently Asked Questions",
+        "meta_descr": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-size": "16px"
+            },
+            ".navbar-toggler": {
+              "color": "#273a59"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#273a59"
+            },
+            ".link, .dropdown-item": {
+              "color": "#273a59",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-family": "'Oxygen', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.8rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.866rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#273a59",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#273a59!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-13",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "0.8",
+            "fontName": {
+              "name": "Oxygen",
+              "url": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "css": "'Oxygen', sans-serif"
+            },
+            "fontColor": "#273a59",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-blue-with-type-124x128.png",
+              "height": 128,
+              "alt": "HoloWalk",
+              "link": "index.html",
+              "title": "HoloWalk - Capturing Time in Spaces",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-primary\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">&nbsp; Capturing Time in Spaces℠<br></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"faq.html\">faq</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">client login</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-14",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#273a59",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright © 2017 HoloWalk"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "color": "#273a59"
+            },
+            ".lead P": {
+              "color": "#273a59"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-15",
+          "_params": {
+            "paddingTop": "5",
+            "paddingBottom": 3,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x1200.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#222222",
+            "showTitle": true,
+            "showText": false,
+            "showButton": false
+          },
+          "title": "Frequently Asked Questions",
+          "text": "<p>Article header with background image and parallax effect.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-16",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<h4>Why do I need this?</h4><div>Documenting the jobsite with photos has always been important. But one of Murphy's Law says that particular detail you'll want to see in the future will be just outside the frame when the camera's shutter clicks. What's behind that wall? Where does that wire go? Didn't the electrician install a junction box in this location? With HoloWalk, you'll be able to find the answers you need in a matter of seconds</div><div><br></div><h4>How much will this cost?</h4><div>How much time are you going to save by not having to open up that wall to investigate an issue? How much money will you save when you can provide evidence to defend against a construction defects claim years from now? How many hours a day will you save by not having to visit a job site when a question comes up and you need answers based on as-built conditions? When situations like these come up, HoloWalk's benefits will seem priceless. But HoloWalks are reasonably priced, based on square footage of the job site with prices starting as low as .10 per square foot / per capture event.</div><div><br></div><h4>When is the best time to capture a HoloWalk?</h4><div>The best time to capture the job site with a HoloWalk is whenever a critical phase of construction has been completed and you want to create a visual record of that phase of the project so you can recall it later when those areas may be covered up and no longer be visible. Another rule of thumb is to capture the job site after every major inspection -- after the completion of foundation, framing, electrical/plumbing/mechanical, drywall, and just prior to finishes like tile, casework &amp; trim.</div><div><br></div><h4>How many HoloWalk Capture events can I expect during a construction project?</h4><div>The answer depends on when we get involved. The earlier we can capture the job site, the more valuable the HoloWalks will be to you going forward. That said, most clients who undertake a major renovation or new construction project ask us to capture \"foundation to finish\", with a minimum of four captures -- 1) Foundation, 2) Framing, 3) Pre-Insulation, 4) Post Drywall.</div><div><br></div><h4>What do you need to get started?</h4><div>Project setup is straightforward... we just need a PDF of the floor plans for all areas of the project to be captured. We'll upload the plans into our HoloWalk capture tool, indicating all the locations where captures will be made on the floor plans -- before the technician visits the site. We want to make sure we've covered any and all critical areas that are important to you or your client.</div><div><br></div><h4>Who has access? Are my HoloWalks confidential?</h4><div>You, the client, have the final say in who has access. As a default, only those who have the login credentials you establish at the beginning of the project will be able to access your HoloWalks. At your discretion, can may share a HoloWalk with someone else by creating a unique link and sending it to the target recipient via email or text.</div><div><br></div>",
+          "_styles": {
+            "DIV": {
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            },
+            "H3": {
+              "text-align": "left"
+            }
+          }
+        }
+      ]
+    },
+    "holowalk_light_stick.html": {
+      "settings": {
+        "title": "HoloWalk Light Stick",
+        "meta_descr": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-size": "16px"
+            },
+            ".navbar-toggler": {
+              "color": "#273a59"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#273a59"
+            },
+            ".link, .dropdown-item": {
+              "color": "#273a59",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-family": "'Oxygen', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.8rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.866rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#273a59",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#273a59!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-17",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "0.8",
+            "fontName": {
+              "name": "Oxygen",
+              "url": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "css": "'Oxygen', sans-serif"
+            },
+            "fontColor": "#273a59",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-blue-with-type-124x128.png",
+              "height": 128,
+              "alt": "HoloWalk",
+              "link": "index.html",
+              "title": "HoloWalk - Capturing Time in Spaces",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-primary\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">&nbsp; Capturing Time in Spaces℠<br></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"faq.html\">faq</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">client login</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-18",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#273a59",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright © 2017 HoloWalk"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-1d",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": false,
+            "showText": false,
+            "showTitle": false
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">SEE LIVE DEMO</a>",
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "title": "PRE MADE BLOCKS"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-1e",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": true,
+            "showText": true,
+            "showTitle": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">I Want One!</a>",
+          "text": "Powerful Omni-directional LED Light Source for 360° Images &amp; Videos",
+          "title": "HoloWalk Light Stick",
+          "_styles": {
+            "H2": {
+              "color": "#273a59"
+            },
+            "H3": {
+              "color": "#273a59"
+            },
+            ".btn": {
+              "font-size": "14px"
+            }
+          }
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery4",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "1",
+            "images": [
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/light-stick-kit-319-2000x2664-800x1065.png",
+                "image": "@PROJECT_PATH@/assets/images/light-stick-kit-319-2000x2664.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/light-stick-on-tripod-on-600x800-2000x2666-800x1066.png",
+                "image": "@PROJECT_PATH@/assets/images/light-stick-on-tripod-on-600x800-2000x2666.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/light-stick-on-tripod-on-800x1066-800x1066.png",
+                "image": "@PROJECT_PATH@/assets/images/light-stick-on-tripod-on-800x1066.png",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": "2",
+            "showText": false,
+            "filter": false,
+            "bgColor": "#ffffff",
+            "filterBgColor": false,
+            "fullWidth": true,
+            "showBullets": true
+          },
+          "_anchor": "gallery4-1c",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1f",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "bgColor": "#ffffff"
+          },
+          "text": "<h4>What's Included:</h4><ul><li>LED Light Stick with 3/8\" threads (1/4\"-20 thread available) for use with pro-quality tripod and/or adjustable ball head<br>(tripod and ball head not included)</li><li>High-Capacity Rechargeable Battery Pack with 24v output cord + charger</li><li>2.4 GhHz wireless remote control - turn on/off and dim the LED Light Stick remotely</li><li>Carry Case</li></ul><p><br></p>",
+          "_styles": {
+            "P": {
+              "color": "#273a59"
+            },
+            "UL": {
+              "color": "#273a59"
+            },
+            "H4": {
+              "color": "#273a59"
+            }
+          }
+        },
+        {
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
+            },
+            "H3": {
+              "color": "#273a59",
+              "font-size": "36px"
+            },
+            "SMALL": {
+              "color": "#273a59"
+            },
+            "I": {
+              "font-size": "12px"
             }
           },
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-h",
+          "_anchor": "header3-1g",
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
             "bgColor": "#fff",
             "showMeta": true
           },
-          "title": "<p><a href=\"http://#\"><iframe id=\"holobuilderIframe\" width=\"1200\" height=\"900\" src=\"https://holobuilder.com/app/index.html?e=1&amp;p=5812526379958272#player/5812526379958272?options=273\" border=\"0\" frameborder=\"0\" style=\"border: 0\" allowfullscreen=\"\" mozallowfullscreen=\"\" webkitallowfullscreen=\"\" title=\"Capturing Time in Spaces with HoloWalk\"></iframe></a></p>",
-          "meta": "HoloWalk&nbsp;"
+          "title": "Specifications",
+          "meta": "<i>(Preliminary - Subject to Change)</i>"
         },
         {
           "_tags": [
             "Theme"
           ],
-          "_name": "contacts4",
-          "_styles": {
-            "STRONG": {
-              "color": "#cccccc"
-            }
-          },
-          "_anchor": "contacts4-g",
+          "_name": "content1",
+          "_anchor": "content1-1h",
           "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "2",
-            "bgImageRadio": true,
-            "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x1200.jpg",
-            "bgColor": "#273a59",
-            "bgColorRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#273a59"
+            "paddingTop": 1,
+            "paddingBottom": "7",
+            "bgColor": "#ffffff"
           },
-          "text1": "<strong><br></strong><br><br><strong>Address</strong><br>PO Box 14352<br>San Francisco, CA 94114-0352<br><br><br>\n<strong>Contact</strong><br>\nEmail: info@holowalk.com<br>\nPhone: +1 (415) 944-2464<br><br><br><br><br><br>Copyright © 2017, All Rights Reserved<br><br>",
-          "text2": "<div><font color=\"#bcbcbc\"><span style=\"font-size: 14px; line-height: 25px;\"></span></font></div>",
-          "form": {
-            "title": "MESSAGE",
-            "action": "david@holowalk.com",
-            "alerts": {
-              "success": "Thanks for reaching out. We'll be back in touch soon!"
-            },
-            "fields": {
-              "name": {
-                "title": "Name",
-                "visible": true,
-                "customTitle": "Name*"
-              },
-              "email": {
-                "title": "Email",
-                "visible": true,
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "title": "Phone",
-                "visible": true,
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message"
-              }
-            }
-          },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-white\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Contact us</a>"
+          "text": "<h4>LED Light Stick</h4><ul><li>Omni-directional constant light source</li><li>Beam Angle: 360°</li><li>CRI: ≥90</li><li>Color Temperature:  Daylight 5500k</li><li>Output: 4500 lumens (dimmable)</li><li>Controlled by 2.4 GHz wireless remote control</li><li>Power: 48w</li><li>Input: 24v / 2.1a</li><li>Dimensions: 12.5\" x 3.1\"</li><li>Weight: 8 oz</li></ul><div><br></div><h4>High-Capacity Rechargeable Battery Pack</h4><ul><li>Battery type: Lithium ion&nbsp;</li><li>96 Watt-hour (26,400 mAh) Capacity</li><li>Can power the LED Light Stick for up to 2 hours of continuous use</li><li>Can provide an extra 30-40 hours of operation time for an iPad connected with USB cable (USB Cable not included)</li><li>Status display showing remaining capacity bars and output voltage</li><li>Built-in USB Power Port for Charging or Powering iPad, iPhone, PDA's, Cell Phones, Media Players, or anything that can be charged with a USB Cable</li><li>Multi output voltages controlled by output cables (24v for LED Light Stick, 5V for USB-connected devices)</li><li>Maximum Output: 24V Port: 2.5A; USB Port 2.1A</li><li>Dimensions: 8.5\" x 5.5\" x 1\"&nbsp;</li><li>Weight: 1.8 lbs.</li></ul>"
         }
       ]
     }

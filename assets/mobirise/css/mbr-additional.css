@@ -1,4 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+
 
 
 
@@ -40,7 +42,7 @@ h6,
 .mbr-gallery-title,
 .mbr-map [data-state-details],
 .mbr-price {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
 .mbr-footer-content h1,
 .mbr-footer .mbr-contacts h1,
@@ -54,13 +56,7 @@ h6,
 .mbr-footer .mbr-contacts p strong,
 .mbr-footer-content strong,
 .mbr-footer .mbr-contacts strong {
-  font-family: 'Lato', sans-serif;
-}
-.btn {
-  border-radius: 1.6em;
-}
-.mbr-subscribe .btn {
-  border-radius: 1.6em !important;
+  font-family: 'Oxygen', sans-serif;
 }
 .btn-sm,
 .lead a,
@@ -69,22 +65,22 @@ h6,
 .mbr-section-hero .mbr-section-lead,
 .mbr-cards .card-subtitle,
 .mbr-testimonial .card-block {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oxygen', sans-serif;
   font-style: normal;
 }
 .mbr-author-name {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
 .mbr-author-desc {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oxygen', sans-serif;
   font-style: normal;
 }
 .mbr-plan-title {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
 .mbr-plan-subtitle,
 .mbr-plan-price-desc {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oxygen', sans-serif;
   font-style: normal;
 }
 .bg-primary {
@@ -422,7 +418,7 @@ h6,
   color: #273a59;
 }
 #msg-box5-5 H3 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oxygen', sans-serif;
   font-size: 30px;
   color: #273a59;
   text-align: center;
@@ -445,7 +441,7 @@ h6,
 }
 #menu-2 .navbar-caption {
   color: #ffffff;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oxygen', sans-serif;
   font-size: 16px;
 }
 #menu-2 .navbar-toggler {
@@ -458,7 +454,7 @@ h6,
 #menu-2 .link,
 #menu-2 .dropdown-item {
   color: #273a59;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
 #menu-2 .link {
   font-size: 0.8rem;
@@ -516,10 +512,194 @@ h6,
   font-size: 20px;
   color: #efefef;
 }
-#header3-h .mbr-section-title,
-#header3-h .mbr-section-subtitle {
+#testimonials1-j .card-block P {
+  text-align: left;
+}
+#testimonials1-j .mbr-section-title {
+  color: #273a59;
+  font-family: 'Oxygen', sans-serif;
+}
+#testimonials1-j .mbr-section-subtitle {
+  color: #8c8c8c;
+}
+
+
+
+#menu-13 .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-13 .navbar-caption {
+  color: #ffffff;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+}
+#menu-13 .navbar-toggler {
+  color: #273a59;
+}
+#menu-13 .close-icon::before,
+#menu-13 .close-icon::after {
+  background-color: #273a59;
+}
+#menu-13 .link,
+#menu-13 .dropdown-item {
+  color: #273a59;
+  font-family: 'Oxygen', sans-serif;
+}
+#menu-13 .link {
+  font-size: 0.8rem;
+}
+#menu-13 .dropdown-item,
+#menu-13 .nav-dropdown-sm .link {
+  font-size: 0.866rem;
+}
+#menu-13 .link:hover,
+#menu-13 .dropdown-item:hover,
+#menu-13 .link:focus,
+#menu-13 .dropdown-item:focus {
+  color: #273a59;
+}
+#menu-13 .link[aria-expanded="true"],
+#menu-13 .dropdown-menu {
+  background: #e6e6e6;
+}
+#menu-13 .nav-dropdown-sm .link:focus,
+#menu-13 .nav-dropdown-sm .link:hover,
+#menu-13 .nav-dropdown-sm .dropdown-item:focus,
+#menu-13 .nav-dropdown-sm .dropdown-item:hover {
+  background: #f7f7f7!important;
+}
+#menu-13 .navbar,
+#menu-13 .nav-dropdown-sm,
+#menu-13 .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-13 .nav-dropdown-sm .dropdown-menu {
+  background: #ffffff;
+}
+#menu-13 .bg-color.transparent .link {
+  color: #273a59;
+  transition: none;
+}
+#menu-13 .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-13 .bg-color.transparent.opened .link:hover,
+#menu-13 .bg-color.transparent.opened .link:focus {
+  color: #273a59;
+}
+#menu-13 .link[aria-expanded="true"],
+#menu-13 .dropdown-item[aria-expanded="true"] {
+  color: #273a59!important;
+}
+#msg-box8-15 .mbr-section-title,
+#msg-box8-15 p {
+  color: #fff;
+}
+#msg-box8-15 .mbr-section-title {
+  color: #273a59;
+}
+#msg-box8-15 .lead P {
+  color: #273a59;
+}
+#content1-16 DIV {
+  font-family: 'Oxygen', sans-serif;
+}
+#content1-16 H3 {
+  text-align: left;
+}
+
+
+#menu-17 .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-17 .navbar-caption {
+  color: #ffffff;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+}
+#menu-17 .navbar-toggler {
+  color: #273a59;
+}
+#menu-17 .close-icon::before,
+#menu-17 .close-icon::after {
+  background-color: #273a59;
+}
+#menu-17 .link,
+#menu-17 .dropdown-item {
+  color: #273a59;
+  font-family: 'Oxygen', sans-serif;
+}
+#menu-17 .link {
+  font-size: 0.8rem;
+}
+#menu-17 .dropdown-item,
+#menu-17 .nav-dropdown-sm .link {
+  font-size: 0.866rem;
+}
+#menu-17 .link:hover,
+#menu-17 .dropdown-item:hover,
+#menu-17 .link:focus,
+#menu-17 .dropdown-item:focus {
+  color: #273a59;
+}
+#menu-17 .link[aria-expanded="true"],
+#menu-17 .dropdown-menu {
+  background: #e6e6e6;
+}
+#menu-17 .nav-dropdown-sm .link:focus,
+#menu-17 .nav-dropdown-sm .link:hover,
+#menu-17 .nav-dropdown-sm .dropdown-item:focus,
+#menu-17 .nav-dropdown-sm .dropdown-item:hover {
+  background: #f7f7f7!important;
+}
+#menu-17 .navbar,
+#menu-17 .nav-dropdown-sm,
+#menu-17 .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-17 .nav-dropdown-sm .dropdown-menu {
+  background: #ffffff;
+}
+#menu-17 .bg-color.transparent .link {
+  color: #273a59;
+  transition: none;
+}
+#menu-17 .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-17 .bg-color.transparent.opened .link:hover,
+#menu-17 .bg-color.transparent.opened .link:focus {
+  color: #273a59;
+}
+#menu-17 .link[aria-expanded="true"],
+#menu-17 .dropdown-item[aria-expanded="true"] {
+  color: #273a59!important;
+}
+#msg-box1-1e H2 {
+  color: #273a59;
+}
+#msg-box1-1e H3 {
+  color: #273a59;
+}
+#msg-box1-1e .btn {
+  font-size: 14px;
+}
+#content1-1f P {
+  color: #273a59;
+}
+#content1-1f UL {
+  color: #273a59;
+}
+#content1-1f H4 {
+  color: #273a59;
+}
+#header3-1g .mbr-section-title,
+#header3-1g .mbr-section-subtitle {
   text-align: center;
 }
-#contacts4-g STRONG {
-  color: #cccccc;
+#header3-1g H3 {
+  color: #273a59;
+  font-size: 36px;
+}
+#header3-1g SMALL {
+  color: #273a59;
+}
+#header3-1g I {
+  font-size: 12px;
 }
