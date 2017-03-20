@@ -187,15 +187,15 @@
             "fontHoverColor": "@primaryColor",
             "transparent": false,
             "sticky": true,
-            "logo": true,
-            "showBrand": false,
+            "logo": false,
+            "showBrand": true,
             "collapsed": true,
             "hideButtons": true
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-blue-with-type-124x128.png",
+              "src": "@PROJECT_PATH@/assets/images/logo%20blue%20with%20type-124x128.png",
               "height": 128,
               "alt": "HoloWalk",
               "link": "index.html",
@@ -424,15 +424,15 @@
             "fontHoverColor": "@primaryColor",
             "transparent": false,
             "sticky": true,
-            "logo": true,
-            "showBrand": false,
+            "logo": false,
+            "showBrand": true,
             "collapsed": true,
             "hideButtons": true
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-blue-with-type-124x128.png",
+              "src": "@PROJECT_PATH@/assets/images/logo%20blue%20with%20type-124x128.png",
               "height": 128,
               "alt": "HoloWalk",
               "link": "index.html",
@@ -609,15 +609,15 @@
             "fontHoverColor": "@primaryColor",
             "transparent": false,
             "sticky": true,
-            "logo": true,
-            "showBrand": false,
+            "logo": false,
+            "showBrand": true,
             "collapsed": true,
             "hideButtons": true
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-blue-with-type-124x128.png",
+              "src": "@PROJECT_PATH@/assets/images/logo%20blue%20with%20type-124x128.png",
               "height": 128,
               "alt": "HoloWalk",
               "link": "index.html",
