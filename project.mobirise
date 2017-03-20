@@ -717,7 +717,8 @@
               "color": "#273a59"
             },
             "H3": {
-              "color": "#273a59"
+              "color": "#273a59",
+              "font-size": "46px"
             },
             ".btn": {
               "font-size": "14px"
