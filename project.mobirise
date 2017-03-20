@@ -881,8 +881,8 @@
           "_name": "form1",
           "_anchor": "form1-1j",
           "_params": {
-            "labelsColor": "#232323",
-            "paddingTop": 3,
+            "labelsColor": "#273a59",
+            "paddingTop": "0",
             "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
@@ -927,7 +927,7 @@
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
           "_styles": {
             ".form-control-label": {
-              "color": "#232323"
+              "color": "#273a59"
             },
             ".mbr-section-title": {
               "color": "#273a59"
