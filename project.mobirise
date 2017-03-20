@@ -809,7 +809,7 @@
           "_name": "msg-box1",
           "_anchor": "msg-box1-1i",
           "_params": {
-            "paddingTop": 3,
+            "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": false,
             "parallax": true,
