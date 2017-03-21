@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "HoloWalk - Main",
-    "currentPage": "holowalk_light_stick.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 56,
+    "uniqCompNum": 57,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-32-128x128.png",
     "noImageResize": "",
@@ -259,76 +259,6 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "testimonials1",
-          "_styles": {
-            ".card-block P": {
-              "text-align": "left"
-            },
-            ".mbr-section-title": {
-              "color": "#273a59",
-              "font-family": "'Oxygen', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#8c8c8c"
-            }
-          },
-          "testimonial": [
-            {
-              "text": "<p><a href=\"http://#\"><iframe id=\"holobuilderIframe\" width=\"500\" height=\"375\" src=\"https://holobuilder.com/app/index.html?e=1&amp;p=5812526379958272#player/5812526379958272?options=273\" border=\"0\" frameborder=\"0\" style=\"border: 0\" allowfullscreen=\"\" mozallowfullscreen=\"\" webkitallowfullscreen=\"\" title=\"Virtual Reality made with HoloBuilder\"></iframe></a></p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face3.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Abanoub S.",
-              "authorBio": "User"
-            },
-            {
-              "text": "<p>Bullet #1</p><p>Bullet #2</p><p>Bullet 3</p><p>Bullet 4</p><p>Bullet 5</p><p>Bullet 6</p><p>Bullet 7</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face1.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Suffian A.",
-              "authorBio": "User"
-            }
-          ],
-          "_anchor": "testimonials1-j",
-          "_params": {
-            "paddingTop": "4",
-            "paddingBottom": "4",
-            "count": "2",
-            "showImages": false,
-            "showName": false,
-            "showBio": false,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": true,
-            "showSubtitle": true
-          },
-          "title": "<span style=\"font-weight: normal;\">What is a </span>HoloWalk<span style=\"font-weight: normal;\"> and what can I do with it?</span>",
-          "subtitle": "Shape your future web project with sharp design and refine coded functions."
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
           "_name": "footer1",
           "_anchor": "footer1-q",
           "_params": {
@@ -344,6 +274,19 @@
             "overlayColor": "#444444"
           },
           "text": "Copyright © 2017 HoloWalk"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1k",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>placeholder</p>"
         }
       ]
     },

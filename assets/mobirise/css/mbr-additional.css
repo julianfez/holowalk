@@ -9,7 +9,6 @@
 
 
 
-
 body,
 input,
 textarea,
@@ -511,16 +510,6 @@ h6,
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   color: #efefef;
-}
-#testimonials1-j .card-block P {
-  text-align: left;
-}
-#testimonials1-j .mbr-section-title {
-  color: #273a59;
-  font-family: 'Oxygen', sans-serif;
-}
-#testimonials1-j .mbr-section-subtitle {
-  color: #8c8c8c;
 }
 
 
