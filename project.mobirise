@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 57,
+    "uniqCompNum": 58,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-32-128x128.png",
     "noImageResize": "",
@@ -185,7 +185,7 @@
             },
             "fontColor": "#273a59",
             "fontHoverColor": "@primaryColor",
-            "transparent": false,
+            "transparent": true,
             "sticky": true,
             "logo": false,
             "showBrand": true,
@@ -287,6 +287,62 @@
             "bgColor": "#fff"
           },
           "text": "<p><a href=\"http://#\"><iframe id=\"holobuilderIframe\" width=\"1200\" height=\"900\" src=\"https://holobuilder.com/app/index.html?e=1&amp;p=5812526379958272#player/5812526379958272?options=273&amp;scene=14707694745755\" border=\"0\" frameborder=\"0\" style=\"border: 0\" allowfullscreen=\"\" mozallowfullscreen=\"\" webkitallowfullscreen=\"\" title=\"HoloWalk - Capturing Time in Spaces\"></iframe></a></p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts4",
+          "_anchor": "contacts4-1l",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#273a59",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "text1": "<strong>Address</strong><br>\nPO Box 14352<br>\nSan Francisco, CA 94114<br><br><br>\n<strong>Contacts</strong><br>\nEmail: david@holowalk.com<br>\nPhone: +1 (415) 944-2464<br><br>",
+          "text2": "",
+          "form": {
+            "title": "MESSAGE",
+            "action": "david@holowalk.com",
+            "alerts": {
+              "success": "Thank you! Your message has been dispatched."
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "What's On Your Mind?"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\">Contact us</a>",
+          "_styles": {
+            "STRONG": {
+              "color": "#cccccc",
+              "font-size": "18px"
+            }
+          }
         }
       ]
     },
@@ -456,13 +512,6 @@
             "Theme"
           ],
           "_name": "content1",
-          "_anchor": "content1-16",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<h4>Why do I need this?</h4><div>Documenting the jobsite with photos has always been important. But one of Murphy's Law says that particular detail you'll want to see in the future will be just outside the frame when the camera's shutter clicks. What's behind that wall? Where does that wire go? Didn't the electrician install a junction box in this location? With HoloWalk, you'll be able to find the answers you need in a matter of seconds</div><div><br></div><h4>How much will this cost?</h4><div>How much time are you going to save by not having to open up that wall to investigate an issue? How much money will you save when you can provide evidence to defend against a construction defects claim years from now? How many hours a day will you save by not having to visit a job site when a question comes up and you need answers based on as-built conditions? When situations like these come up, HoloWalk's benefits will seem priceless. But HoloWalks are reasonably priced, based on square footage of the job site with prices starting as low as .10 per square foot / per capture event.</div><div><br></div><h4>When is the best time to capture a HoloWalk?</h4><div>The best time to capture the job site with a HoloWalk is whenever a critical phase of construction has been completed and you want to create a visual record of that phase of the project so you can recall it later when those areas may be covered up and no longer be visible. Another rule of thumb is to capture the job site after every major inspection -- after the completion of foundation, framing, electrical/plumbing/mechanical, drywall, and just prior to finishes like tile, casework &amp; trim.</div><div><br></div><h4>How many HoloWalk Capture events can I expect during a construction project?</h4><div>The answer depends on when we get involved. The earlier we can capture the job site, the more valuable the HoloWalks will be to you going forward. That said, most clients who undertake a major renovation or new construction project ask us to capture \"foundation to finish\", with a minimum of four captures -- 1) Foundation, 2) Framing, 3) Pre-Insulation, 4) Post Drywall.</div><div><br></div><h4>What do you need to get started?</h4><div>Project setup is straightforward... we just need a PDF of the floor plans for all areas of the project to be captured. We'll upload the plans into our HoloWalk capture tool, indicating all the locations where captures will be made on the floor plans -- before the technician visits the site. We want to make sure we've covered any and all critical areas that are important to you or your client.</div><div><br></div><h4>Who has access? Are my HoloWalks confidential?</h4><div>You, the client, have the final say in who has access. As a default, only those who have the login credentials you establish at the beginning of the project will be able to access your HoloWalks. At your discretion, can may share a HoloWalk with someone else by creating a unique link and sending it to the target recipient via email or text.</div><div><br></div>",
           "_styles": {
             "DIV": {
               "font-family": "'Oxygen', sans-serif",
@@ -471,7 +520,14 @@
             "H3": {
               "text-align": "left"
             }
-          }
+          },
+          "_anchor": "content1-16",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<h4>Why do I need this?</h4><div>Documenting the jobsite with photos has always been important. But one of Murphy's Law says that particular detail you'll want to see in the future will be just outside the frame when the camera's shutter clicks. What's behind that wall? Where does that wire go? Didn't the electrician install a junction box in this location? With HoloWalk, you'll be able to find the answers you need in a matter of seconds</div><div><br></div><h4>How much will this cost?</h4><div>How much time are you going to save by not having to open up that wall to investigate an issue? How much money will you save when you can provide evidence to defend against a construction defects claim years from now? How many hours a day will you save by not having to visit a job site when a question comes up and you need answers based on as-built conditions? When situations like these come up, HoloWalk's benefits will seem priceless. But HoloWalks are reasonably priced, based on square footage of the job site with prices starting as low as .10 per square foot / per capture event.</div><div><br></div><h4>When is the best time to capture a HoloWalk?</h4><div>The best time to capture the job site with a HoloWalk is whenever a critical phase of construction has been completed and you want to create a visual record of that phase of the project so you can recall it later when those areas may be covered up and no longer be visible. Another rule of thumb is to capture the job site after every major inspection -- after the completion of foundation, framing, electrical/plumbing/mechanical, drywall, and just prior to finishes like tile, casework &amp; trim.</div><div><br></div><h4>How many HoloWalk Capture events can I expect during a construction project?</h4><div>The answer depends on when we get involved. The earlier we can capture the job site, the more valuable the HoloWalks will be to you going forward. That said, most clients who undertake a major renovation or new construction project ask us to capture \"foundation to finish\", with a minimum of four captures -- 1) Foundation, 2) Framing, 3) Pre-Insulation, 4) Post Drywall.</div><div><br></div><h4>What do you need to get started?</h4><div>Project setup is straightforward... we just need a PDF of the floor plans for all areas of the project to be captured. We'll upload the plans into our HoloWalk capture tool, indicating all the locations where captures will be made on the floor plans -- before the technician visits the site. We want to make sure we've covered any and all critical areas that are important to you or your client.</div><div><br></div><h4>Who has access? Are my HoloWalks confidential?</h4><div>You, the client, have the final say in who has access. As a default, only those who have the login credentials you establish at the beginning of the project will be able to access your HoloWalks. At your discretion, can may share a HoloWalk with someone else by creating a unique link and sending it to the target recipient via email or text.</div><div><br></div>"
         }
       ]
     },
@@ -631,6 +687,18 @@
             "Theme"
           ],
           "_name": "msg-box1",
+          "_styles": {
+            "H2": {
+              "color": "#273a59"
+            },
+            "H3": {
+              "color": "#273a59",
+              "font-size": "46px"
+            },
+            ".btn": {
+              "font-size": "14px"
+            }
+          },
           "_anchor": "msg-box1-1e",
           "_params": {
             "paddingTop": "0",
@@ -654,19 +722,7 @@
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"holowalk_light_stick.html#form1-1j\" data-toolbar=\"-mbrBtnMove\">I Want One!</a>",
           "text": "Powerful Omni-directional LED Light Source for 360° Images &amp; Videos",
-          "title": "HoloWalk Light Stick",
-          "_styles": {
-            "H2": {
-              "color": "#273a59"
-            },
-            "H3": {
-              "color": "#273a59",
-              "font-size": "46px"
-            },
-            ".btn": {
-              "font-size": "14px"
-            }
-          }
+          "title": "HoloWalk Light Stick"
         },
         {
           "_inherit": "gallery1",
@@ -726,13 +782,6 @@
             "Theme"
           ],
           "_name": "content1",
-          "_anchor": "content1-1f",
-          "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "0",
-            "bgColor": "#ffffff"
-          },
-          "text": "<h4>What's Included:</h4><ul><li>LED Light Stick with 3/8\" threads (1/4\"-20 thread available) for use with pro-quality tripod and/or adjustable ball head<br>(tripod and ball head not included)</li><li>High-Capacity Rechargeable Battery Pack with 24v output cord + charger</li><li>2.4 GhHz wireless remote control - turn on/off and dim the LED Light Stick remotely</li><li>Carry Case</li></ul><p><br></p>",
           "_styles": {
             "P": {
               "color": "#273a59"
@@ -743,13 +792,29 @@
             "H4": {
               "color": "#273a59"
             }
-          }
+          },
+          "_anchor": "content1-1f",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "bgColor": "#ffffff"
+          },
+          "text": "<h4>What's Included:</h4><ul><li>LED Light Stick with 3/8\" threads (1/4\"-20 thread available) for use with pro-quality tripod and/or adjustable ball head<br>(tripod and ball head not included)</li><li>High-Capacity Rechargeable Battery Pack with 24v output cord + charger</li><li>2.4 GhHz wireless remote control - turn on/off and dim the LED Light Stick remotely</li><li>Carry Case</li></ul><p><br></p>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box1",
+          "_styles": {
+            "H3": {
+              "font-size": "36px"
+            },
+            "SPAN": {
+              "color": "#273a59",
+              "font-size": "36px"
+            }
+          },
           "_anchor": "msg-box1-1i",
           "_params": {
             "paddingTop": "1",
@@ -773,29 +838,13 @@
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">SEE LIVE DEMO</a>",
           "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "title": "<span style=\"font-weight: normal;\">Specifications *</span><br>",
-          "_styles": {
-            "H3": {
-              "font-size": "36px"
-            },
-            "SPAN": {
-              "color": "#273a59",
-              "font-size": "36px"
-            }
-          }
+          "title": "<span style=\"font-weight: normal;\">Specifications *</span><br>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "content1",
-          "_anchor": "content1-1h",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": "7",
-            "bgColor": "#ffffff"
-          },
-          "text": "<h2><span style=\"font-size: 24px; line-height: 1.1;\">LED Light Stick</span><br></h2><ul><li>Omni-directional constant light source</li><li>Beam Angle: 360°</li><li>CRI: ≥90</li><li>Color Temperature:  Daylight 5500k</li><li>Output: 4500 lumens (dimmable)</li><li>Controlled by 2.4 GHz wireless remote control</li><li>Power: 48w</li><li>Input: 24v / 2.1a</li><li>Dimensions: 12.5\" x 3.1\"</li><li>Weight: 8 oz</li></ul><div><br></div><h4>High-Capacity Rechargeable Battery Pack</h4><ul><li>Battery type: Lithium ion&nbsp;</li><li>96 Watt-hour (26,400 mAh) Capacity</li><li>Can power the LED Light Stick for up to 2 hours of continuous use</li><li>Can provide an extra 30-40 hours of operation time for an iPad connected with USB cable (USB Cable not included)</li><li>Status display showing remaining capacity bars and output voltage</li><li>Built-in USB Power Port for Charging or Powering iPad, iPhone, PDA's, Cell Phones, Media Players, or anything that can be charged with a USB Cable</li><li>Multi output voltages controlled by output cables (24v for LED Light Stick, 5V for USB-connected devices)</li><li>Maximum Output: 24V Port: 2.5A; USB Port 2.1A</li><li>Dimensions: 8.5\" x 5.5\" x 1\"&nbsp;</li><li>Weight: 1.8 lbs.</li></ul><p><br></p><p>* Preliminary - Subject to Change</p>",
           "_styles": {
             "H4": {
               "color": "#273a59",
@@ -815,13 +864,28 @@
             "UL": {
               "color": "#273a59"
             }
-          }
+          },
+          "_anchor": "content1-1h",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "7",
+            "bgColor": "#ffffff"
+          },
+          "text": "<h2><span style=\"font-size: 24px; line-height: 1.1;\">LED Light Stick</span><br></h2><ul><li>Omni-directional constant light source</li><li>Beam Angle: 360°</li><li>CRI: ≥90</li><li>Color Temperature:  Daylight 5500k</li><li>Output: 4500 lumens (dimmable)</li><li>Controlled by 2.4 GHz wireless remote control</li><li>Power: 48w</li><li>Input: 24v / 2.1a</li><li>Dimensions: 12.5\" x 3.1\"</li><li>Weight: 8 oz</li></ul><div><br></div><h4>High-Capacity Rechargeable Battery Pack</h4><ul><li>Battery type: Lithium ion&nbsp;</li><li>96 Watt-hour (26,400 mAh) Capacity</li><li>Can power the LED Light Stick for up to 2 hours of continuous use</li><li>Can provide an extra 30-40 hours of operation time for an iPad connected with USB cable (USB Cable not included)</li><li>Status display showing remaining capacity bars and output voltage</li><li>Built-in USB Power Port for Charging or Powering iPad, iPhone, PDA's, Cell Phones, Media Players, or anything that can be charged with a USB Cable</li><li>Multi output voltages controlled by output cables (24v for LED Light Stick, 5V for USB-connected devices)</li><li>Maximum Output: 24V Port: 2.5A; USB Port 2.1A</li><li>Dimensions: 8.5\" x 5.5\" x 1\"&nbsp;</li><li>Weight: 1.8 lbs.</li></ul><p><br></p><p>* Preliminary - Subject to Change</p>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#273a59"
+            },
+            ".mbr-section-title": {
+              "color": "#273a59"
+            }
+          },
           "_anchor": "form1-1j",
           "_params": {
             "labelsColor": "#273a59",
@@ -867,15 +931,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#273a59"
-            },
-            ".mbr-section-title": {
-              "color": "#273a59"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
         }
       ]
     }
