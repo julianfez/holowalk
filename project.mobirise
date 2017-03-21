@@ -286,7 +286,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<p>placeholder</p>"
+          "text": "<p><a href=\"http://#\"><iframe id=\"holobuilderIframe\" width=\"1200\" height=\"900\" src=\"https://holobuilder.com/app/index.html?e=1&amp;p=5812526379958272#player/5812526379958272?options=273&amp;scene=14707694745755\" border=\"0\" frameborder=\"0\" style=\"border: 0\" allowfullscreen=\"\" mozallowfullscreen=\"\" webkitallowfullscreen=\"\" title=\"HoloWalk - Capturing Time in Spaces\"></iframe></a></p>"
         }
       ]
     },
