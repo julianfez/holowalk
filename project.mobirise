@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "HoloWalk - Main",
-    "currentPage": "client_login.html",
+    "currentPage": "faq.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -534,6 +534,14 @@
             "Theme"
           ],
           "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "form1-1m",
           "_params": {
             "labelsColor": "#ffffff",
@@ -550,12 +558,12 @@
             "showTitle": true,
             "showSubTitle": true
           },
-          "title": "Any More Questions?",
+          "title": "So What Do You Think?",
           "subtitle": "Send us a quick note with your questions, comments, ideas -- whatever is on your mind!",
           "form": {
             "action": "david@holowalk.com",
             "alerts": {
-              "success": "Thanks for filling out form!"
+              "success": "Thanks for taking the time to write! We'll get back to you very soon."
             },
             "fields": {
               "name": {
@@ -579,15 +587,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#ffffff"
-            },
-            ".mbr-section-title": {
-              "color": "#ffffff"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
         }
       ]
     },
@@ -1162,18 +1162,18 @@
             "Theme"
           ],
           "_name": "content1",
+          "_styles": {
+            "P": {
+              "color": "#273a59"
+            }
+          },
           "_anchor": "content1-1u",
           "_params": {
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgColor": "#fff"
           },
-          "text": "<p><a href=\"http://#\"><script type=\"text/javascript\">app_id=\"588ae3be06c04c4b4dad441e\";distribution_key=\"dist_2\";</script><script type=\"text/javascript\" src=\"https://loader.knack.com/588ae3be06c04c4b4dad441e/dist_2/knack.js\"></script></a></p><div id=\"knack-dist_2\"><a href=\"http://#\">Standby...</a></div><p></p>",
-          "_styles": {
-            "P": {
-              "color": "#273a59"
-            }
-          }
+          "text": "<p><a href=\"http://#\"><script type=\"text/javascript\">app_id=\"588ae3be06c04c4b4dad441e\";distribution_key=\"dist_2\";</script><script type=\"text/javascript\" src=\"https://loader.knack.com/588ae3be06c04c4b4dad441e/dist_2/knack.js\"></script></a></p><div id=\"knack-dist_2\"><a href=\"http://#\">Standby...</a></div><p></p>"
         }
       ]
     }
