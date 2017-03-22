@@ -587,7 +587,7 @@ h6,
   color: #fff;
 }
 #msg-box8-15 .mbr-section-title {
-  color: #273a59;
+  color: #ffffff;
 }
 #msg-box8-15 .lead P {
   color: #273a59;
@@ -597,6 +597,12 @@ h6,
 }
 #content1-16 H3 {
   text-align: left;
+}
+#form1-1m .form-control-label {
+  color: #ffffff;
+}
+#form1-1m .mbr-section-title {
+  color: #ffffff;
 }
 
 

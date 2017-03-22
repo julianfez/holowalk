@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "HoloWalk - Main",
-    "currentPage": "index.html",
+    "currentPage": "faq.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 58,
+    "uniqCompNum": 59,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-32-128x128.png",
     "noImageResize": "",
@@ -245,7 +245,7 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.9",
+            "overlayOpacity": "0.8",
             "overlayColor": "#273a59",
             "showTitle": false,
             "showText": true,
@@ -293,18 +293,24 @@
             "Theme"
           ],
           "_name": "contacts4",
+          "_styles": {
+            "STRONG": {
+              "color": "#cccccc",
+              "font-size": "18px"
+            }
+          },
           "_anchor": "contacts4-1l",
           "_params": {
             "paddingTop": "1",
             "paddingBottom": "0",
-            "bgImageRadio": false,
+            "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x1200.jpg",
             "bgColor": "#273a59",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayOpacity": "0.8",
+            "overlayColor": "#273a59"
           },
           "text1": "<strong>Address</strong><br>\nPO Box 14352<br>\nSan Francisco, CA 94114<br><br><br>\n<strong>Contacts</strong><br>\nEmail: david@holowalk.com<br>\nPhone: +1 (415) 944-2464<br><br>",
           "text2": "",
@@ -336,13 +342,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Contact us</a>",
-          "_styles": {
-            "STRONG": {
-              "color": "#cccccc",
-              "font-size": "18px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Contact us</a>"
         }
       ]
     },
@@ -473,7 +473,7 @@
               "color": "#fff"
             },
             ".mbr-section-title": {
-              "color": "#273a59"
+              "color": "#ffffff"
             },
             ".lead P": {
               "color": "#273a59"
@@ -488,10 +488,10 @@
             "paddingTop": "5",
             "paddingBottom": 3,
             "parallax": true,
-            "bgImageRadio": false,
+            "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x1200.jpg",
             "bgColor": "#ffffff",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
@@ -523,11 +523,71 @@
           },
           "_anchor": "content1-16",
           "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
+            "paddingTop": "3",
+            "paddingBottom": "3",
             "bgColor": "#fff"
           },
           "text": "<h4>Why do I need this?</h4><div>Documenting the jobsite with photos has always been important. But one of Murphy's Law says that particular detail you'll want to see in the future will be just outside the frame when the camera's shutter clicks. What's behind that wall? Where does that wire go? Didn't the electrician install a junction box in this location? With HoloWalk, you'll be able to find the answers you need in a matter of seconds</div><div><br></div><h4>How much will this cost?</h4><div>How much time are you going to save by not having to open up that wall to investigate an issue? How much money will you save when you can provide evidence to defend against a construction defects claim years from now? How many hours a day will you save by not having to visit a job site when a question comes up and you need answers based on as-built conditions? When situations like these come up, HoloWalk's benefits will seem priceless. But HoloWalks are reasonably priced, based on square footage of the job site with prices starting as low as .10 per square foot / per capture event.</div><div><br></div><h4>When is the best time to capture a HoloWalk?</h4><div>The best time to capture the job site with a HoloWalk is whenever a critical phase of construction has been completed and you want to create a visual record of that phase of the project so you can recall it later when those areas may be covered up and no longer be visible. Another rule of thumb is to capture the job site after every major inspection -- after the completion of foundation, framing, electrical/plumbing/mechanical, drywall, and just prior to finishes like tile, casework &amp; trim.</div><div><br></div><h4>How many HoloWalk Capture events can I expect during a construction project?</h4><div>The answer depends on when we get involved. The earlier we can capture the job site, the more valuable the HoloWalks will be to you going forward. That said, most clients who undertake a major renovation or new construction project ask us to capture \"foundation to finish\", with a minimum of four captures -- 1) Foundation, 2) Framing, 3) Pre-Insulation, 4) Post Drywall.</div><div><br></div><h4>What do you need to get started?</h4><div>Project setup is straightforward... we just need a PDF of the floor plans for all areas of the project to be captured. We'll upload the plans into our HoloWalk capture tool, indicating all the locations where captures will be made on the floor plans -- before the technician visits the site. We want to make sure we've covered any and all critical areas that are important to you or your client.</div><div><br></div><h4>Who has access? Are my HoloWalks confidential?</h4><div>You, the client, have the final say in who has access. As a default, only those who have the login credentials you establish at the beginning of the project will be able to access your HoloWalks. At your discretion, can may share a HoloWalk with someone else by creating a unique link and sending it to the target recipient via email or text.</div><div><br></div>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-1m",
+          "_params": {
+            "labelsColor": "#ffffff",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x1200.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.8",
+            "overlayColor": "#273a59",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "Any More Questions?",
+          "subtitle": "Send us a quick note with your questions, comments, ideas -- whatever is on your mind!",
+          "form": {
+            "action": "david@holowalk.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            }
+          }
         }
       ]
     },
