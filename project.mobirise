@@ -177,7 +177,7 @@
           "_anchor": "menu-2",
           "_params": {
             "bgColor": "#ffffff",
-            "fontSize": "0.8",
+            "fontSize": "0.95",
             "fontName": {
               "name": "Oxygen",
               "url": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
@@ -185,8 +185,8 @@
             },
             "fontColor": "#273a59",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
+            "transparent": false,
+            "sticky": false,
             "logo": true,
             "showBrand": true,
             "collapsed": true,
@@ -375,10 +375,10 @@
               "font-family": "'Oxygen', sans-serif"
             },
             ".link": {
-              "font-size": "0.8rem"
+              "font-size": "0.95rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.866rem"
+              "font-size": "1.029rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -413,7 +413,7 @@
           "_anchor": "menu-13",
           "_params": {
             "bgColor": "#ffffff",
-            "fontSize": "0.8",
+            "fontSize": "0.95",
             "fontName": {
               "name": "Oxygen",
               "url": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
@@ -422,7 +422,7 @@
             "fontColor": "#273a59",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
-            "sticky": true,
+            "sticky": false,
             "logo": true,
             "showBrand": true,
             "collapsed": true,
@@ -658,7 +658,7 @@
           "_anchor": "menu-17",
           "_params": {
             "bgColor": "#ffffff",
-            "fontSize": "0.8",
+            "fontSize": "0.95",
             "fontName": {
               "name": "Oxygen",
               "url": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
@@ -667,7 +667,7 @@
             "fontColor": "#273a59",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
-            "sticky": true,
+            "sticky": false,
             "logo": true,
             "showBrand": true,
             "collapsed": true,
@@ -1062,7 +1062,7 @@
           "_anchor": "menu-1n",
           "_params": {
             "bgColor": "#ffffff",
-            "fontSize": "0.8",
+            "fontSize": "0.95",
             "fontName": {
               "name": "Oxygen",
               "url": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
@@ -1071,7 +1071,7 @@
             "fontColor": "#273a59",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
-            "sticky": true,
+            "sticky": false,
             "logo": true,
             "showBrand": true,
             "collapsed": true,
