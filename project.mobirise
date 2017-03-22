@@ -1152,7 +1152,7 @@
             "showText": true,
             "showButton": false
           },
-          "title": "Client Login",
+          "title": "HoloWalk Portal",
           "text": "<p>Access to your HoloWalk Projects, request new HoloWalk captures, initiate new projects.</p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
         },
