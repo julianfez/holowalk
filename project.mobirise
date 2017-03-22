@@ -997,7 +997,7 @@
     },
     "client_login.html": {
       "settings": {
-        "title": "HoloWalk - Client Login",
+        "title": "HoloWalk - Client Portal",
         "meta_descr": ""
       },
       "components": [
