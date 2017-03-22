@@ -1164,7 +1164,8 @@
           "_styles": {
             "DIV": {
               "font-family": "'Oxygen', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "text-align": "center"
             },
             "H3": {
               "text-align": "left"
@@ -1180,7 +1181,7 @@
             "paddingBottom": "7",
             "bgColor": "#fff"
           },
-          "text": "<h4><span style=\"font-size: 1.5rem; line-height: 1.1;\">Coming Soon!</span><br></h4>"
+          "text": "<p><h4><a href=\"http://#\"><script type=\"text/javascript\">app_id=\"588ae3be06c04c4b4dad441e\";distribution_key=\"dist_2\";</script><script type=\"text/javascript\" src=\"https://loader.knack.com/588ae3be06c04c4b4dad441e/dist_2/knack.js\"></script><div id=\"knack-dist_2\">Loading...</div></a><span style=\"font-size: 1.5rem; line-height: 1.1;\"><br></span></h4><h4><span style=\"font-size: 1.5rem; line-height: 1.1;\">Coming Soon!</span><br></h4></p>"
         }
       ]
     }
