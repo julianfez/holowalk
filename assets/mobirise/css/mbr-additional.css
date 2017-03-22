@@ -722,7 +722,6 @@ h6,
 }
 
 
-
 #menu-1n .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -797,14 +796,6 @@ h6,
 #msg-box8-1p .lead P {
   color: #8c8c8c;
 }
-#content1-1q DIV {
-  font-family: 'Oxygen', sans-serif;
+#content1-1s DIV {
   text-align: center;
-}
-#content1-1q H3 {
-  text-align: left;
-}
-#content1-1q H4 {
-  text-align: center;
-  color: #273a59;
 }
