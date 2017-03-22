@@ -1181,7 +1181,7 @@
             "paddingBottom": "7",
             "bgColor": "#fff"
           },
-          "text": "<p></p><h4><a href=\"http://#\"><script type=\"text/javascript\">app_id=\"588ae3be06c04c4b4dad441e\";distribution_key=\"dist_2\";</script><script type=\"text/javascript\" src=\"https://loader.knack.com/588ae3be06c04c4b4dad441e/dist_2/knack.js\"></script></a><div id=\"knack-dist_2\">Loading...</div><span style=\"font-size: 1.5rem; line-height: 1.1;\"><br></span></h4><h4><span style=\"font-size: 1.5rem; line-height: 1.1;\">Coming Soon!</span><br></h4><p></p>"
+          "text": "<p></p><h4><a href=\"http://#\"><script type=\"text/javascript\">app_id=\"588ae3be06c04c4b4dad441e\";distribution_key=\"dist_2\";</script><script type=\"text/javascript\" src=\"https://loader.knack.com/588ae3be06c04c4b4dad441e/dist_2/knack.js\"></script></a><div id=\"knack-dist_2\"><span style=\"font-size: 1.5rem; line-height: 1.1;\">Loading....</span><br></div></h4><p></p>"
         }
       ]
     }
