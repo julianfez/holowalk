@@ -1168,10 +1168,11 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<p><a href=\"http://#\"><script type=\"text/javascript\">app_id=\"588ae3be06c04c4b4dad441e\";distribution_key=\"dist_3\";</script><script type=\"text/javascript\" src=\"https://loader.knack.com/588ae3be06c04c4b4dad441e/dist_3/knack.js\"></script></a></p><div id=\"knack-dist_3\"><a href=\"http://#\"><script type=\"text/javascript\">app_id=\"588ae3be06c04c4b4dad441e\";distribution_key=\"dist_2\";</script><script type=\"text/javascript\" src=\"https://loader.knack.com/588ae3be06c04c4b4dad441e/dist_2/knack.js\"></script><div id=\"knack-dist_2\">Standby.... HoloWalk Portal Loading</div></a><a href=\"http://#\"></a></div><p></p>",
+          "text": "<p><a href=\"http://#\"><script type=\"text/javascript\">app_id=\"588ae3be06c04c4b4dad441e\";distribution_key=\"dist_2\";</script><script type=\"text/javascript\" src=\"https://loader.knack.com/588ae3be06c04c4b4dad441e/dist_2/knack.js\"></script><div id=\"knack-dist_2\">Standby... Client Portal Loading.</div></a></p>",
           "_styles": {
             "DIV": {
-              "text-align": "center"
+              "text-align": "left",
+              "color": "#273a59"
             }
           }
         }
