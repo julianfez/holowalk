@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 66,
+    "uniqCompNum": 67,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-32-128x128.png",
     "noImageResize": "",
@@ -1162,16 +1162,15 @@
             "Theme"
           ],
           "_name": "content1",
-          "_anchor": "content1-1t",
+          "_anchor": "content1-1u",
           "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgColor": "#fff"
           },
-          "text": "<p><a href=\"http://#\"><script type=\"text/javascript\">app_id=\"588ae3be06c04c4b4dad441e\";distribution_key=\"dist_2\";</script><script type=\"text/javascript\" src=\"https://loader.knack.com/588ae3be06c04c4b4dad441e/dist_2/knack.js\"></script><div id=\"knack-dist_2\">Standby... Client Portal Loading.</div></a></p>",
+          "text": "<p><a href=\"http://#\"><script type=\"text/javascript\">app_id=\"588ae3be06c04c4b4dad441e\";distribution_key=\"dist_2\";</script><script type=\"text/javascript\" src=\"https://loader.knack.com/588ae3be06c04c4b4dad441e/dist_2/knack.js\"></script></a></p><div id=\"knack-dist_2\"><a href=\"http://#\">Standby...</a></div><p></p>",
           "_styles": {
-            "DIV": {
-              "text-align": "left",
+            "P": {
               "color": "#273a59"
             }
           }
