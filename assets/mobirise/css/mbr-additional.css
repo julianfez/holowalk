@@ -743,11 +743,11 @@ h6,
   font-family: 'Oxygen', sans-serif;
 }
 #menu-1n .link {
-  font-size: 0.8rem;
+  font-size: 0.95rem;
 }
 #menu-1n .dropdown-item,
 #menu-1n .nav-dropdown-sm .link {
-  font-size: 0.866rem;
+  font-size: 1.029rem;
 }
 #menu-1n .link:hover,
 #menu-1n .dropdown-item:hover,
@@ -799,4 +799,90 @@ h6,
 }
 #content1-1u P {
   color: #273a59;
+}
+
+
+
+#menu-1v .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-1v .navbar-caption {
+  color: #ffffff;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+}
+#menu-1v .navbar-toggler {
+  color: #273a59;
+}
+#menu-1v .close-icon::before,
+#menu-1v .close-icon::after {
+  background-color: #273a59;
+}
+#menu-1v .link,
+#menu-1v .dropdown-item {
+  color: #273a59;
+  font-family: 'Oxygen', sans-serif;
+}
+#menu-1v .link {
+  font-size: 0.95rem;
+}
+#menu-1v .dropdown-item,
+#menu-1v .nav-dropdown-sm .link {
+  font-size: 1.029rem;
+}
+#menu-1v .link:hover,
+#menu-1v .dropdown-item:hover,
+#menu-1v .link:focus,
+#menu-1v .dropdown-item:focus {
+  color: #273a59;
+}
+#menu-1v .link[aria-expanded="true"],
+#menu-1v .dropdown-menu {
+  background: #e6e6e6;
+}
+#menu-1v .nav-dropdown-sm .link:focus,
+#menu-1v .nav-dropdown-sm .link:hover,
+#menu-1v .nav-dropdown-sm .dropdown-item:focus,
+#menu-1v .nav-dropdown-sm .dropdown-item:hover {
+  background: #f7f7f7!important;
+}
+#menu-1v .navbar,
+#menu-1v .nav-dropdown-sm,
+#menu-1v .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-1v .nav-dropdown-sm .dropdown-menu {
+  background: #ffffff;
+}
+#menu-1v .bg-color.transparent .link {
+  color: #273a59;
+  transition: none;
+}
+#menu-1v .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-1v .bg-color.transparent.opened .link:hover,
+#menu-1v .bg-color.transparent.opened .link:focus {
+  color: #273a59;
+}
+#menu-1v .link[aria-expanded="true"],
+#menu-1v .dropdown-item[aria-expanded="true"] {
+  color: #273a59!important;
+}
+#msg-box8-1x .mbr-section-title,
+#msg-box8-1x p {
+  color: #fff;
+}
+#msg-box8-1x .mbr-section-title {
+  color: #ffffff;
+}
+#msg-box8-1x .lead P {
+  color: #273a59;
+}
+#content1-1y DIV {
+  font-family: 'Oxygen', sans-serif;
+}
+#content1-1y H3 {
+  text-align: left;
+}
+#content1-1y P {
+  text-align: left;
 }
