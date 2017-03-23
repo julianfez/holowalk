@@ -892,3 +892,95 @@ h6,
 #contacts1-21 STRONG {
   color: #273a59;
 }
+
+
+
+#menu-22 .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-22 .navbar-caption {
+  color: #ffffff;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+}
+#menu-22 .navbar-toggler {
+  color: #273a59;
+}
+#menu-22 .close-icon::before,
+#menu-22 .close-icon::after {
+  background-color: #273a59;
+}
+#menu-22 .link,
+#menu-22 .dropdown-item {
+  color: #273a59;
+  font-family: 'Oxygen', sans-serif;
+}
+#menu-22 .link {
+  font-size: 0.95rem;
+}
+#menu-22 .dropdown-item,
+#menu-22 .nav-dropdown-sm .link {
+  font-size: 1.029rem;
+}
+#menu-22 .link:hover,
+#menu-22 .dropdown-item:hover,
+#menu-22 .link:focus,
+#menu-22 .dropdown-item:focus {
+  color: #273a59;
+}
+#menu-22 .link[aria-expanded="true"],
+#menu-22 .dropdown-menu {
+  background: #e6e6e6;
+}
+#menu-22 .nav-dropdown-sm .link:focus,
+#menu-22 .nav-dropdown-sm .link:hover,
+#menu-22 .nav-dropdown-sm .dropdown-item:focus,
+#menu-22 .nav-dropdown-sm .dropdown-item:hover {
+  background: #f7f7f7!important;
+}
+#menu-22 .navbar,
+#menu-22 .nav-dropdown-sm,
+#menu-22 .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-22 .nav-dropdown-sm .dropdown-menu {
+  background: #ffffff;
+}
+#menu-22 .bg-color.transparent .link {
+  color: #273a59;
+  transition: none;
+}
+#menu-22 .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-22 .bg-color.transparent.opened .link:hover,
+#menu-22 .bg-color.transparent.opened .link:focus {
+  color: #273a59;
+}
+#menu-22 .link[aria-expanded="true"],
+#menu-22 .dropdown-item[aria-expanded="true"] {
+  color: #273a59!important;
+}
+#msg-box8-24 .mbr-section-title,
+#msg-box8-24 p {
+  color: #fff;
+}
+#msg-box8-24 .mbr-section-title {
+  color: #ffffff;
+}
+#msg-box8-24 .lead P {
+  color: #273a59;
+}
+#content1-25 DIV {
+  font-family: 'Oxygen', sans-serif;
+}
+#content1-25 H3 {
+  text-align: left;
+}
+#content1-25 P {
+  text-align: left;
+}
+#contacts1-26 P {
+  color: #273a59;
+}
+#contacts1-26 STRONG {
+  color: #273a59;
+}
