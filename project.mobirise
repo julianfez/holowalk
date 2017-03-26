@@ -308,7 +308,7 @@
             "paddingBottom": "1",
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x12000.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x12001.jpg",
             "bgColor": "#ffffff",
             "bgColorRadio": false,
             "overlay": true,
@@ -363,7 +363,7 @@
           },
           "_anchor": "contacts1-26",
           "_params": {
-            "paddingTop": 3,
+            "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
@@ -390,9 +390,9 @@
               "size": 0
             }
           },
-          "text1": "<strong>Address</strong><br>\nPO Box 14352<br>\nSan Francisco, CA 94114",
-          "text2": "<strong>Contacts</strong><br>\nEmail: david@HoloWalk.com<br>\nPhone: +1 (415) 944-2464<br>",
-          "text3": "<strong>Links</strong><br>\n<a class=\"text-primary\" href=\"privacy.html\">Privacy Policy</a><br>\n<a href=\"terms_conditions.html\">Terms &amp; Conditions</a><br><br>"
+          "text1": "<strong><br></strong><b>Address</b><br>\n<br><span style=\"font-size: 0.875rem; line-height: 1.5;\">PO Box 14352</span><br>\nSan Francisco, CA 94114",
+          "text2": "<strong>Contacts</strong><br>\n<br>Email: david@HoloWalk.com<br>\nPhone: +1 (415) 944-2464<br>",
+          "text3": "<strong>Links</strong><br>\n<a class=\"text-primary\" href=\"privacy.html\"><br></a><a class=\"text-primary\" href=\"privacy.html\">Privacy Policy</a><br>\n<a href=\"terms_conditions.html\" class=\"text-primary\">Terms &amp; Conditions</a><br><br>"
         }
       ]
     },
@@ -654,7 +654,7 @@
           },
           "_anchor": "contacts1-26",
           "_params": {
-            "paddingTop": 3,
+            "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
@@ -681,9 +681,9 @@
               "size": 0
             }
           },
-          "text1": "<strong>Address</strong><br>\nPO Box 14352<br>\nSan Francisco, CA 94114",
-          "text2": "<strong>Contacts</strong><br>\nEmail: david@HoloWalk.com<br>\nPhone: +1 (415) 944-2464<br>",
-          "text3": "<strong>Links</strong><br>\n<a class=\"text-primary\" href=\"privacy.html\">Privacy Policy</a><br>\n<a href=\"terms_conditions.html\">Terms &amp; Conditions</a><br><br>"
+          "text1": "<strong><br></strong><b>Address</b><br>\n<br><span style=\"font-size: 0.875rem; line-height: 1.5;\">PO Box 14352</span><br>\nSan Francisco, CA 94114",
+          "text2": "<strong>Contacts</strong><br>\n<br>Email: david@HoloWalk.com<br>\nPhone: +1 (415) 944-2464<br>",
+          "text3": "<strong>Links</strong><br>\n<a class=\"text-primary\" href=\"privacy.html\"><br></a><a class=\"text-primary\" href=\"privacy.html\">Privacy Policy</a><br>\n<a href=\"terms_conditions.html\" class=\"text-primary\">Terms &amp; Conditions</a><br><br>"
         }
       ]
     },
@@ -1474,7 +1474,7 @@
           },
           "_anchor": "contacts1-21",
           "_params": {
-            "paddingTop": 3,
+            "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
@@ -1501,9 +1501,9 @@
               "size": 0
             }
           },
-          "text1": "<strong>Address</strong><br>\nPO Box 14352<br>\nSan Francisco, CA 94114",
-          "text2": "<strong>Contacts</strong><br>\nEmail: david@HoloWalk.com<br>\nPhone: +1 (415) 944-2464<br>",
-          "text3": "<strong>Links</strong><br>\n<a class=\"text-primary\" href=\"privacy.html\">Privacy Policy</a><br>\n<a href=\"terms_conditions.html\">Terms &amp; Conditions</a><br><br>"
+          "text1": "<strong><br></strong><b>Address</b><br>\n<br><span style=\"font-size: 0.875rem; line-height: 1.5;\">PO Box 14352</span><br>\nSan Francisco, CA 94114",
+          "text2": "<strong>Contacts</strong><br>\n<br>Email: david@HoloWalk.com<br>\nPhone: +1 (415) 944-2464<br>",
+          "text3": "<strong>Links</strong><br>\n<a class=\"text-primary\" href=\"privacy.html\"><br></a><a class=\"text-primary\" href=\"privacy.html\">Privacy Policy</a><br>\n<a href=\"terms_conditions.html\" class=\"text-primary\">Terms &amp; Conditions</a><br><br>"
         }
       ]
     },
@@ -1708,7 +1708,7 @@
           },
           "_anchor": "contacts1-26",
           "_params": {
-            "paddingTop": 3,
+            "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
@@ -1735,9 +1735,9 @@
               "size": 0
             }
           },
-          "text1": "<strong>Address</strong><br>\nPO Box 14352<br>\nSan Francisco, CA 94114",
-          "text2": "<strong>Contacts</strong><br>\nEmail: david@HoloWalk.com<br>\nPhone: +1 (415) 944-2464<br>",
-          "text3": "<strong>Links</strong><br>\n<a class=\"text-primary\" href=\"privacy.html\">Privacy Policy</a><br>\n<a href=\"terms_conditions.html\">Terms &amp; Conditions</a><br><br>"
+          "text1": "<strong><br></strong><b>Address</b><br>\n<br><span style=\"font-size: 0.875rem; line-height: 1.5;\">PO Box 14352</span><br>\nSan Francisco, CA 94114",
+          "text2": "<strong>Contacts</strong><br>\n<br>Email: david@HoloWalk.com<br>\nPhone: +1 (415) 944-2464<br>",
+          "text3": "<strong>Links</strong><br>\n<a class=\"text-primary\" href=\"privacy.html\"><br></a><a class=\"text-primary\" href=\"privacy.html\">Privacy Policy</a><br>\n<a href=\"terms_conditions.html\" class=\"text-primary\">Terms &amp; Conditions</a><br><br>"
         }
       ]
     }
