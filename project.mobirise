@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 80,
+    "uniqCompNum": 81,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-32-128x128.png",
     "noImageResize": "",
@@ -293,32 +293,26 @@
             "Theme"
           ],
           "_name": "contacts4",
-          "_styles": {
-            "STRONG": {
-              "color": "#cccccc",
-              "font-size": "18px"
-            }
-          },
-          "_anchor": "contacts4-1l",
+          "_anchor": "contacts4-28",
           "_params": {
             "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": true,
             "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x1200.jpg",
-            "bgColor": "#273a59",
+            "bgColor": "#2e2e2e",
             "bgColorRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.8",
+            "overlayOpacity": "0.7",
             "overlayColor": "#273a59"
           },
-          "text1": "<strong>Address</strong><br>\nPO Box 14352<br>\nSan Francisco, CA 94114<br><br><br>\n<strong>Contacts</strong><br>\nEmail: david@holowalk.com<br>\nPhone: +1 (415) 944-2464<br><br>",
-          "text2": "",
+          "text1": "<strong>Address</strong><br>PO Box 14352<br>San Francisco, CA 94114-0352<br><br><br>\n<strong>Contacts</strong><br>\nEmail: david@HoloWalk.com<br>\nPhone: +1 (415) 944-2464<br><br>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul class=\"mbr-contacts__list\"><li><a href=\"terms_conditions.html\">Terms of Service</a><a class=\"text-white\" href=\"https://mobirise.com/\"></a></li><li><a href=\"privacy.html\">Privacy Policy</a><a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-win.zip\"></a></li><li><a href=\"client_login.html\">Client Login</a><a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-mac.zip\"></a></li></ul>",
           "form": {
             "title": "MESSAGE",
             "action": "david@holowalk.com",
             "alerts": {
-              "success": "Thank you! Your message has been dispatched."
+              "success": "Thanks for your message. We'll be in touch shortly."
             },
             "fields": {
               "name": {
@@ -338,11 +332,19 @@
               },
               "message": {
                 "title": "Message",
-                "customTitle": "What's On Your Mind?"
+                "customTitle": "Message"
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Contact us</a>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Contact us</a>",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            },
+            "STRONG": {
+              "color": "#c1c1c1"
+            }
+          }
         }
       ]
     },
