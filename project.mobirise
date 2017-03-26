@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "HoloWalk - Main",
-    "currentPage": "index.html",
+    "currentPage": "privacy.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 82,
+    "uniqCompNum": 89,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-32-128x128.png",
     "noImageResize": "",
@@ -33,8 +33,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "",
-        "meta_descr": "",
+        "title": "HoloWalk - Capturing Time in Spaces℠",
+        "meta_descr": "360° Virtual Jobsite Walk-thrus, Captured At Critical Milestones, jobwalk, construction, photography, VR, AR, Virtual Reality, Augmented Reality, Construction Site Photo Documentation, 360 Degree, Omni-directional images",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -308,7 +308,7 @@
             "paddingBottom": "1",
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x12001.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x12002.jpg",
             "bgColor": "#ffffff",
             "bgColorRadio": false,
             "overlay": true,
@@ -716,10 +716,10 @@
               "font-family": "'Oxygen', sans-serif"
             },
             ".link": {
-              "font-size": "0.8rem"
+              "font-size": "0.95rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.866rem"
+              "font-size": "1.029rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -1510,7 +1510,7 @@
     "privacy.html": {
       "settings": {
         "title": "HoloWalk - Privacy Policy",
-        "meta_descr": ""
+        "meta_descr": "360° Virtual Jobsite Walk-thrus, Captured At Critical Milestones, jobwalk, construction, photography, VR, AR, Virtual Reality, Augmented Reality, Construction Site Photo Documentation, 360 Degree, Omni-directional images"
       },
       "components": [
         {
