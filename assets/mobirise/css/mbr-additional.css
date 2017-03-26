@@ -511,11 +511,17 @@ h6,
   font-size: 20px;
   color: #efefef;
 }
-#contacts4-28 P {
+#form1-29 .form-control-label {
   color: #ffffff;
 }
-#contacts4-28 STRONG {
-  color: #c1c1c1;
+#form1-29 .mbr-section-title {
+  color: #ffffff;
+}
+#contacts1-26 P {
+  color: #273a59;
+}
+#contacts1-26 STRONG {
+  color: #273a59;
 }
 
 
@@ -605,6 +611,12 @@ h6,
 }
 #form1-1m .mbr-section-title {
   color: #ffffff;
+}
+#contacts1-26 P {
+  color: #273a59;
+}
+#contacts1-26 STRONG {
+  color: #273a59;
 }
 
 

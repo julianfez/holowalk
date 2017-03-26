@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "HoloWalk - Main",
-    "currentPage": "terms_conditions.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 81,
+    "uniqCompNum": 82,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-32-128x128.png",
     "noImageResize": "",
@@ -292,27 +292,37 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "contacts4",
-          "_anchor": "contacts4-28",
+          "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "form1-29",
           "_params": {
+            "labelsColor": "#ffffff",
             "paddingTop": "1",
-            "paddingBottom": "0",
+            "paddingBottom": "1",
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x1200.jpg",
-            "bgColor": "#2e2e2e",
+            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x12000.jpg",
+            "bgColor": "#ffffff",
             "bgColorRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.7",
-            "overlayColor": "#273a59"
+            "overlayOpacity": "0.8",
+            "overlayColor": "#273a59",
+            "showTitle": true,
+            "showSubTitle": true
           },
-          "text1": "<strong>Address</strong><br>PO Box 14352<br>San Francisco, CA 94114-0352<br><br><br>\n<strong>Contacts</strong><br>\nEmail: david@holowalk.com<br>\nPhone: +1 (415) 944-2464<br><br>",
-          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul class=\"mbr-contacts__list\"><li><a href=\"terms_conditions.html\">Terms of Service</a><a class=\"text-white\" href=\"https://mobirise.com/\"></a></li><li><a href=\"privacy.html\">Privacy Policy</a><a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-win.zip\"></a></li><li><a href=\"client_login.html\">Client Login</a><a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-mac.zip\"></a></li></ul>",
+          "title": "Wanna Know More?",
+          "subtitle": "Send us a quick note with your questions, comments, ideas -- whatever is on your mind!",
           "form": {
-            "title": "MESSAGE",
             "action": "david@holowalk.com",
             "alerts": {
-              "success": "Thanks for your message. We'll be in touch shortly."
+              "success": "Thanks for taking the time to write! We'll get back to you very soon."
             },
             "fields": {
               "name": {
@@ -336,15 +346,53 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Contact us</a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
           "_styles": {
             "P": {
-              "color": "#ffffff"
+              "color": "#273a59"
             },
             "STRONG": {
-              "color": "#c1c1c1"
+              "color": "#273a59"
             }
-          }
+          },
+          "_anchor": "contacts1-26",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-blue-with-type-124x128.png",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>\nPO Box 14352<br>\nSan Francisco, CA 94114",
+          "text2": "<strong>Contacts</strong><br>\nEmail: david@HoloWalk.com<br>\nPhone: +1 (415) 944-2464<br>",
+          "text3": "<strong>Links</strong><br>\n<a class=\"text-primary\" href=\"privacy.html\">Privacy Policy</a><br>\n<a href=\"terms_conditions.html\">Terms &amp; Conditions</a><br><br>"
         }
       ]
     },
@@ -547,8 +595,8 @@
           "_anchor": "form1-1m",
           "_params": {
             "labelsColor": "#ffffff",
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": true,
             "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x1200.jpg",
@@ -590,6 +638,52 @@
             }
           },
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "color": "#273a59"
+            },
+            "STRONG": {
+              "color": "#273a59"
+            }
+          },
+          "_anchor": "contacts1-26",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-blue-with-type-124x128.png",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>\nPO Box 14352<br>\nSan Francisco, CA 94114",
+          "text2": "<strong>Contacts</strong><br>\nEmail: david@HoloWalk.com<br>\nPhone: +1 (415) 944-2464<br>",
+          "text3": "<strong>Links</strong><br>\n<a class=\"text-primary\" href=\"privacy.html\">Privacy Policy</a><br>\n<a href=\"terms_conditions.html\">Terms &amp; Conditions</a><br><br>"
         }
       ]
     },
