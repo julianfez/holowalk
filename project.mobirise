@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "HoloWalk - Main",
-    "currentPage": "privacy.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 79,
+    "uniqCompNum": 80,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-32-128x128.png",
     "noImageResize": "",
@@ -112,7 +112,7 @@
               "size": 0
             }
           },
-          "title": "360° VIRTUAL JOBSITE WALK-THRUS<br><span style=\"font-weight: normal;\">CAPTURED AT CRITICAL MILESTONES</span>",
+          "title": "360° VIRTUAL JOBSITE WALK-THRUS<br><span style=\"font-weight: normal;\">CAPTURED AT CRITICAL MILESTO\u001b\u001bNES</span>",
           "text": "",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
@@ -139,10 +139,10 @@
               "font-family": "'Oxygen', sans-serif"
             },
             ".link": {
-              "font-size": "0.8rem"
+              "font-size": "0.95rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.866rem"
+              "font-size": "1.029rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -259,6 +259,19 @@
           "_tags": [
             "Theme"
           ],
+          "_name": "content1",
+          "_anchor": "content1-27",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p><a href=\"http://#\"><iframe id=\"holobuilderIframe\" width=\"1200\" height=\"900\" src=\"https://holobuilder.com/app/index.html?e=1&amp;p=4585013345517568#player/4585013345517568?options=833&amp;scene=133375312092635\" border=\"0\" frameborder=\"0\" style=\"border: 0\" allowfullscreen=\"\" mozallowfullscreen=\"\" webkitallowfullscreen=\"\" title=\"Virtual Jobsite walk-thru - captured by HoloWalk\"></iframe></a></p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
           "_name": "footer1",
           "_anchor": "footer1-q",
           "_params": {
@@ -274,19 +287,6 @@
             "overlayColor": "#444444"
           },
           "text": ""
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-1k",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<p><a href=\"http://#\"><iframe id=\"holobuilderIframe\" width=\"1200\" height=\"900\" src=\"https://holobuilder.com/app/index.html?e=1&amp;p=5812526379958272#player/5812526379958272?options=273&amp;scene=14707694745755\" border=\"0\" frameborder=\"0\" style=\"border: 0\" allowfullscreen=\"\" mozallowfullscreen=\"\" webkitallowfullscreen=\"\" title=\"HoloWalk - Capturing Time in Spaces\"></iframe></a></p>"
         },
         {
           "_tags": [
@@ -1368,6 +1368,14 @@
             "Theme"
           ],
           "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "color": "#273a59"
+            },
+            "STRONG": {
+              "color": "#273a59"
+            }
+          },
           "_anchor": "contacts1-21",
           "_params": {
             "paddingTop": 3,
@@ -1399,15 +1407,7 @@
           },
           "text1": "<strong>Address</strong><br>\nPO Box 14352<br>\nSan Francisco, CA 94114",
           "text2": "<strong>Contacts</strong><br>\nEmail: info@HoloWalk.com<br>\nPhone: +1 (415) 944-2464<br>",
-          "text3": "<strong>Links</strong><br>\n<a class=\"text-primary\" href=\"privacy.html\">Privacy Policy</a><br>\n<a href=\"terms_conditions.html\">Terms &amp; Conditions</a><br><br>",
-          "_styles": {
-            "P": {
-              "color": "#273a59"
-            },
-            "STRONG": {
-              "color": "#273a59"
-            }
-          }
+          "text3": "<strong>Links</strong><br>\n<a class=\"text-primary\" href=\"privacy.html\">Privacy Policy</a><br>\n<a href=\"terms_conditions.html\">Terms &amp; Conditions</a><br><br>"
         }
       ]
     },
