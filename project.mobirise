@@ -306,7 +306,7 @@
             "overlayOpacity": "0.7",
             "overlayColor": "#273a59"
           },
-          "text1": "<strong>Address</strong><br>PO Box 14352<br>San Francisco, CA 94114-0352<br><br><br>\n<strong>Contacts</strong><br>\nEmail: david@HoloWalk.com<br>\nPhone: +1 (415) 944-2464<br><br>",
+          "text1": "<strong>Address</strong><br>PO Box 14352<br>San Francisco, CA 94114-0352<br><br><br>\n<strong>Contacts</strong><br>\nEmail: david@holowalk.com<br>\nPhone: +1 (415) 944-2464<br><br>",
           "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul class=\"mbr-contacts__list\"><li><a href=\"terms_conditions.html\">Terms of Service</a><a class=\"text-white\" href=\"https://mobirise.com/\"></a></li><li><a href=\"privacy.html\">Privacy Policy</a><a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-win.zip\"></a></li><li><a href=\"client_login.html\">Client Login</a><a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-mac.zip\"></a></li></ul>",
           "form": {
             "title": "MESSAGE",
