@@ -1470,6 +1470,12 @@ h6,
 #content6-30 P {
   text-align: left;
 }
+#content6-30 DIV {
+  text-align: center;
+}
+#content6-30 H4 {
+  text-align: center;
+}
 #contacts1-2x P {
   color: #273a59;
 }
