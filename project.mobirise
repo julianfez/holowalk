@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "HoloWalk - Main",
-    "currentPage": "privacy.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 89,
+    "uniqCompNum": 90,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-32-128x128.png",
     "noImageResize": "",
@@ -308,7 +308,7 @@
             "paddingBottom": "1",
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x12002.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x12003.jpg",
             "bgColor": "#ffffff",
             "bgColorRadio": false,
             "overlay": true,
