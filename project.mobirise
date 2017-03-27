@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 98,
+    "uniqCompNum": 99,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-32-128x128.png",
     "noImageResize": "",
@@ -308,7 +308,7 @@
             "paddingBottom": "1",
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x12004.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x12005.jpg",
             "bgColor": "#ffffff",
             "bgColorRadio": false,
             "overlay": true,
@@ -565,9 +565,9 @@
           "_name": "extAccordion1",
           "_anchor": "extAccordion1-2p",
           "_params": {
-            "collapseAll": true,
+            "collapseAll": false,
             "tabs": "6",
-            "paddingTop": 2,
+            "paddingTop": "3",
             "paddingBottom": 2,
             "parallax": false,
             "bgImageRadio": false,
@@ -584,18 +584,27 @@
             "showTitle": false
           },
           "title": "Accordion FAQ",
-          "title1": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#extAccordion1-2p-init\" data-core=\"\" href=\"#collapseOneextAccordion1-2p\" aria-expanded=\"true\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>Why do I need this?</a>",
-          "text1": "<p><br></p><p>Documenting the jobsite with photos has always been important. But one of Murphy's Law says that particular detail you'll want to see in the future will be just outside the frame when the camera's shutter clicks. What's behind that wall? Where does that wire go? Didn't the electrician install a junction box in this location? With HoloWalk, you'll be able to find the answers you need in a matter of seconds</p><p><br></p>",
-          "title2": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#extAccordion1-2p-init\" data-core=\"\" href=\"#collapseTwoextAccordion1-2p\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">How much will this cost?</a>",
-          "text2": "<span style=\"font-size: 1rem; line-height: 1.5;\">How much time are you going to save by not having to open up that wall to investigate an issue? How much money will you save when you can provide evidence to defend against a construction defects claim years from now? How many hours a day will you save by not having to visit a job site when a question comes up and you need answers based on as-built conditions? When situations like these come up, HoloWalk's benefits will seem priceless. But HoloWalks are reasonably priced, based on square footage of the job site with prices starting as low as .10 per square foot / per capture event.</span><br>",
-          "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#extAccordion1-2p-init\" data-core=\"\" href=\"#collapseThreeextAccordion1-2p\" aria-expanded=\"true\" aria-controls=\"collapseThree\">When is the best time to capture a HoloWalk?</a>",
+          "title1": "<a role=\"button\" class=\"collapsed text-primary\" data-toggle=\"collapse\" data-parent=\"#extAccordion1-2p-init\" data-core=\"\" href=\"#collapseOneextAccordion1-2p\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>Why do I need this?</a>",
+          "text1": "<p><br></p><p>Documenting the jobsite with photos has always been important. But one of Murphy's Law says that particular detail you'll want to see in the future will be just outside the frame when the camera's shutter clicks. </p><br><p>What's behind that wall?<br><span style=\"font-size: 1rem; line-height: 1.5;\">Where does that wire go? <br>Is there blocking in that wall?<br>Didn't the electrician install a junction box in this location?</span></p><p><br></p><p>With HoloWalk, you'll be able to find the answers you need in a matter of seconds</p><p><br></p>",
+          "title2": "<a role=\"button\" class=\"collapsed text-primary\" data-toggle=\"collapse\" data-parent=\"#extAccordion1-2p-init\" data-core=\"\" href=\"#collapseTwoextAccordion1-2p\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">How much will this cost?</a>",
+          "text2": "<span style=\"font-size: 1rem; line-height: 1.5;\">How much time are you going to save by not having to open up that wall to investigate an issue? <br>How much money will you save when you can provide evidence to defend against a construction defects claim years from now? <br>How many hours a day will you save by not having to visit a job site when a question comes up and you need answers based on as-built conditions? </span><br><span style=\"font-size: 1rem; line-height: 1.5;\"><br></span><span style=\"font-size: 1rem; line-height: 1.5;\">When situations like these come up, HoloWalk's benefits will seem priceless. </span><br><span style=\"font-size: 1rem; line-height: 1.5;\"><br></span><span style=\"font-size: 1rem; line-height: 1.5;\">But HoloWalks are priced based on square footage of the job site with prices starting as low as .10 per square foot / per capture event.</span><br>",
+          "title3": "<a role=\"button\" class=\"collapsed text-primary\" data-toggle=\"collapse\" data-parent=\"#extAccordion1-2p-init\" data-core=\"\" href=\"#collapseThreeextAccordion1-2p\" aria-expanded=\"false\" aria-controls=\"collapseThree\">When is the best time to capture a HoloWalk?</a>",
           "text3": "<span style=\"font-size: 1rem; line-height: 1.5;\">The best time to capture the job site with a HoloWalk is whenever a critical phase of construction has been completed and you want to create a visual record of that phase of the project so you can recall it later when those areas may be covered up and no longer be visible. Another rule of thumb is to capture the job site after every major inspection -- after the completion of foundation, framing, electrical/plumbing/mechanical, drywall, and just prior to finishes like tile, casework &amp; trim.</span><br><div><br></div>",
-          "title4": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#extAccordion1-2p-init\" data-core=\"\" href=\"#collapseFourextAccordion1-2p\" aria-expanded=\"true\" aria-controls=\"collapseFour\">How many HoloWalk Capture events can I expect during a construction project?</a>",
+          "title4": "<a role=\"button\" class=\"collapsed text-primary\" data-toggle=\"collapse\" data-parent=\"#extAccordion1-2p-init\" data-core=\"\" href=\"#collapseFourextAccordion1-2p\" aria-expanded=\"false\" aria-controls=\"collapseFour\">How many HoloWalk Capture events can I expect during a construction project?</a>",
           "text4": "<p>The answer depends on when we get involved. The earlier we can capture the job site, the more valuable the HoloWalks will be to you going forward. That said, most clients who undertake a major renovation or new construction project ask us to capture \"foundation to finish\", with a minimum of four captures -- 1) Foundation, 2) Framing, 3) Pre-Insulation, 4) Post Drywall.</p>",
-          "title5": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#extAccordion1-2p-init\" data-core=\"\" href=\"#collapseFiveextAccordion1-2p\" aria-expanded=\"true\" aria-controls=\"collapseFive\">What do you need to get started?</a>",
+          "title5": "<a role=\"button\" class=\"text-primary\" data-toggle=\"collapse\" data-parent=\"#extAccordion1-2p-init\" data-core=\"\" href=\"#collapseFiveextAccordion1-2p\" aria-expanded=\"true\" aria-controls=\"collapseFive\">What do you need to get started?</a>",
           "text5": "<p>Project setup is straightforward... we just need a PDF of the floor plans for all areas of the project to be captured. We'll upload the plans into our HoloWalk capture tool, indicating all the locations where captures will be made on the floor plans -- before the technician visits the site. We want to make sure we've covered any and all critical areas that are important to you or your client.</p>",
-          "title6": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#extAccordion1-2p-init\" data-core=\"\" href=\"#collapseSixextAccordion1-2p\" aria-expanded=\"true\" aria-controls=\"collapseSix\">Who has access? Are my HoloWalks confidential?</a>",
-          "text6": "<p>You, the client, have the final say in who has access. As a default, only those who have the login credentials you establish at the beginning of the project will be able to access your HoloWalks. At your discretion, can may share a HoloWalk with someone else by creating a unique link and sending it to the target recipient via email or text.</p>"
+          "title6": "<a role=\"button\" class=\"text-primary\" data-toggle=\"collapse\" data-parent=\"#extAccordion1-2p-init\" data-core=\"\" href=\"#collapseSixextAccordion1-2p\" aria-expanded=\"true\" aria-controls=\"collapseSix\">Who has access? Are my HoloWalks confidential?</a>",
+          "text6": "<p>You, the client, have the final say in who has access. As a default, only those who have the login credentials you establish at the beginning of the project will be able to access your HoloWalks. At your discretion, can may share a HoloWalk with someone else by creating a unique link and sending it to the target recipient via email or text.</p>",
+          "_styles": {
+            "SPAN": {
+              "text-align": "left",
+              "color": "#273a59"
+            },
+            "P": {
+              "color": "#273a59"
+            }
+          }
         },
         {
           "_tags": [
@@ -2036,7 +2045,7 @@
             "paddingBottom": "1",
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x12004.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x12005.jpg",
             "bgColor": "#ffffff",
             "bgColorRadio": false,
             "overlay": true,

@@ -599,6 +599,13 @@ h6,
 #msg-box8-15 .lead P {
   color: #273a59;
 }
+#extAccordion1-2p SPAN {
+  text-align: left;
+  color: #273a59;
+}
+#extAccordion1-2p P {
+  color: #273a59;
+}
 #form1-1m .form-control-label {
   color: #ffffff;
 }
