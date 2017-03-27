@@ -1391,3 +1391,95 @@ h6,
 #contacts1-2o STRONG {
   color: #273a59;
 }
+
+
+
+#menu-2t .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-2t .navbar-caption {
+  color: #ffffff;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+}
+#menu-2t .navbar-toggler {
+  color: #273a59;
+}
+#menu-2t .close-icon::before,
+#menu-2t .close-icon::after {
+  background-color: #273a59;
+}
+#menu-2t .link,
+#menu-2t .dropdown-item {
+  color: #273a59;
+  font-family: 'Oxygen', sans-serif;
+}
+#menu-2t .link {
+  font-size: 0.95rem;
+}
+#menu-2t .dropdown-item,
+#menu-2t .nav-dropdown-sm .link {
+  font-size: 1.029rem;
+}
+#menu-2t .link:hover,
+#menu-2t .dropdown-item:hover,
+#menu-2t .link:focus,
+#menu-2t .dropdown-item:focus {
+  color: #273a59;
+}
+#menu-2t .link[aria-expanded="true"],
+#menu-2t .dropdown-menu {
+  background: #e6e6e6;
+}
+#menu-2t .nav-dropdown-sm .link:focus,
+#menu-2t .nav-dropdown-sm .link:hover,
+#menu-2t .nav-dropdown-sm .dropdown-item:focus,
+#menu-2t .nav-dropdown-sm .dropdown-item:hover {
+  background: #f7f7f7!important;
+}
+#menu-2t .navbar,
+#menu-2t .nav-dropdown-sm,
+#menu-2t .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-2t .nav-dropdown-sm .dropdown-menu {
+  background: #ffffff;
+}
+#menu-2t .bg-color.transparent .link {
+  color: #273a59;
+  transition: none;
+}
+#menu-2t .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-2t .bg-color.transparent.opened .link:hover,
+#menu-2t .bg-color.transparent.opened .link:focus {
+  color: #273a59;
+}
+#menu-2t .link[aria-expanded="true"],
+#menu-2t .dropdown-item[aria-expanded="true"] {
+  color: #273a59!important;
+}
+#msg-box8-2v .mbr-section-title,
+#msg-box8-2v p {
+  color: #fff;
+}
+#msg-box8-2v .mbr-section-title {
+  color: #ffffff;
+}
+#msg-box8-2v .lead P {
+  color: #273a59;
+}
+#content1-2w DIV {
+  font-family: 'Oxygen', sans-serif;
+}
+#content1-2w H3 {
+  text-align: left;
+}
+#content1-2w P {
+  text-align: left;
+}
+#contacts1-2x P {
+  color: #273a59;
+}
+#contacts1-2x STRONG {
+  color: #273a59;
+}
