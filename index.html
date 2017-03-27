@@ -3,9 +3,11 @@
 <head>
   <!-- Site made with Mobirise Website Builder v3.12.1, https://mobirise.com -->
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
   <meta name="generator" content="Mobirise v3.12.1, mobirise.com">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="assets/images/favicon-32-128x128.png" type="image/x-icon">
   <meta name="description" content="360° Virtual Jobsite Walk-thrus, Captured At Critical Milestones, jobwalk, construction, photography, VR, AR, Virtual Reality, Augmented Reality, Construction Site Photo Documentation, 360 Degree, Omni-directional images">
   <title>HoloWalk - Capturing Time in Spaces℠</title>
@@ -111,7 +113,31 @@
 
     <div class="container">
         <div class="row">
-            <div class="responsive-object"><p><a href="http://#"><iframe id="holobuilderIframe" width="1200" height="900" src="https://holobuilder.com/app/index.html?e=1&amp;p=4585013345517568#player/4585013345517568?options=833&amp;scene=133375312092635" border="0" frameborder="0" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen="" title="Virtual Jobsite walk-thru - captured by HoloWalk"></iframe></a></p></div>
+          <script>
+            
+// Find all iframes
+var $iframes = $( "iframe#holo" );
+
+// Find &#x26; save the aspect ratio for all iframes
+$iframes.each(function () {
+    $( this ).data( "ratio", this.height / this.width )
+    // Remove the hardcoded width &#x26; height attributes
+        .removeAttr( "width" )
+        .removeAttr( "height" );
+});
+
+// Resize the iframes when the window is resized
+$( window ).resize( function () {
+    $iframes.each( function() {
+        // Get the parent container&#x27;s width
+        var width = $( this ).parent().width();
+        $( this ).width( width )
+            .height( width * $( this ).data( "ratio" ) );
+    });
+// Resize to fix all iframes on page load.
+}).resize();
+            </script>
+            <div class="responsive-object"><p><a href="http://#"><iframe id="holo" width="1200" height="900" src="https://holobuilder.com/app/index.html?e=1&amp;p=4585013345517568#player/4585013345517568?options=833&amp;scene=133375312092635" border="0" frameborder="0" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen="" title="Virtual Jobsite walk-thru - captured by HoloWalk"></iframe></a></p></div>
            <style>
 
 
