@@ -113,46 +113,11 @@
 
     <div class="container">
         <div class="row">
-     <script type="text/javascript">
-            
-// Find all iframes
-var $iframes = $( "iframe#holo" );
+  
 
-// Find &#x26; save the aspect ratio for all iframes
-$iframes.each(function () {
-    $( this ).data( "ratio", this.height / this.width )
-    // Remove the hardcoded width &#x26; height attributes
-        .removeAttr( "width" )
-        .removeAttr( "height" );
-});
-
-// Resize the iframes when the window is resized
-$( window ).resize( function () {
-    $iframes.each( function() {
-        // Get the parent container&#x27;s width
-        var width = $( this ).parent().width();
-        $( this ).width( width )
-            .height( width * $( this ).data( "ratio" ) );
-    });
-// Resize to fix all iframes on page load.
-}).resize();
-            </script>
-            <div class="responsive-object"><iframe id="holo" width="1200" height="900" src="https://holobuilder.com/app/index.html?e=1&amp;p=4585013345517568#player/4585013345517568?options=833&amp;scene=133375312092635" border="0" frameborder="0" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen="" title="Virtual Jobsite walk-thru - captured by HoloWalk"></iframe></a></p></div>
-           <style>
-
-
-        .responsive-object iframe, .responsive-object object, .responsive-object embed {
-            position:relative;
-            top:0;
-            left:0;
-            height:900;
-            width: 1px;
-            min-width: 100%;
-            padding-bottom:55%;
-            overflow:hidden;
-
-        }
-    </style>
+            <div class="col-xs-12 lead"><p><a href="http://#"><iframe id="holo" width="1200" height="900" src="https://holobuilder.com/app/index.html?e=1&amp;p=4585013345517568#player/4585013345517568?options=833&amp;scene=133375312092635" border="0" frameborder="0" style="border: 0; position: inherit; height: 900; width: 1px; overflow: hidden;" allowfullscree mozallowfullscreen="" webkitallowfullscreen="" title="Virtual Jobsite walk-thru - captured by HoloWalk"></iframe></a></p></div>
+     
+       
         </div>
     </div>
 
