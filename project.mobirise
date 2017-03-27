@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 109,
+    "uniqCompNum": 110,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-32-128x128.png",
     "noImageResize": "",
@@ -308,7 +308,7 @@
             "paddingBottom": "1",
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x120015.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x120016.jpg",
             "bgColor": "#ffffff",
             "bgColorRadio": false,
             "overlay": true,
@@ -2024,7 +2024,7 @@
             "paddingBottom": "1",
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x120015.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x120016.jpg",
             "bgColor": "#ffffff",
             "bgColorRadio": false,
             "overlay": true,
@@ -2278,25 +2278,14 @@
             "Theme"
           ],
           "_name": "content6",
-          "_anchor": "content6-30",
+          "_anchor": "content6-31",
           "_params": {
             "paddingTop": "3",
             "paddingBottom": "3",
-            "bgColor": "#ffffff"
+            "bgColor": "#fff"
           },
-          "text1": "<p><a href=\"http://#\"><script type=\"text/javascript\">app_id=\"588ae3be06c04c4b4dad441e\";distribution_key=\"dist_3\";</script><script type=\"text/javascript\" src=\"https://loader.knack.com/588ae3be06c04c4b4dad441e/dist_3/knack.js\"></script></a></p><div id=\"knack-dist_3\"><a href=\"http://#\"><script type=\"text/javascript\">app_id=\"588ae3be06c04c4b4dad441e\";distribution_key=\"dist_3\";</script><script type=\"text/javascript\" src=\"https://loader.knack.com/588ae3be06c04c4b4dad441e/dist_3/knack.js\"></script></a><div id=\"knack-dist_3\"><a href=\"http://#\"><script type=\"text/javascript\">app_id=\"588ae3be06c04c4b4dad441e\";distribution_key=\"dist_3\";</script><script type=\"text/javascript\" src=\"https://loader.knack.com/588ae3be06c04c4b4dad441e/dist_3/knack.js\"></script><div id=\"knack-dist_3\">Standby...</div></a></div></div><p></p>",
-          "text2": "<p><br></p><p><br></p><h4><span style=\"color: inherit;\">&nbsp; &nbsp;Step 1<br></span><span style=\"color: inherit; font-family: Lato, sans-serif; font-size: 1.07rem; font-weight: 300; line-height: 1.5;\">&nbsp; &nbsp; &nbsp; Enter details about your project</span></h4><div><br></div><h4>&nbsp; &nbsp;Step 2<br><span style=\"font-size: 1.07rem; font-weight: 300; font-family: Lato, sans-serif; line-height: 1.5;\">&nbsp; &nbsp; &nbsp;Upload PDF of the floorplans</span></h4><div><br></div><h4>&nbsp; &nbsp;Step 3<br><span style=\"font-size: 1.07rem; font-weight: 300; font-family: Lato, sans-serif; line-height: 1.5;\">&nbsp; &nbsp; &nbsp;Confirm the schedule for capturing the HoloWalk</span></h4><div><br></div><div><h4><b>&nbsp; &nbsp;Need Help?<br></b><span style=\"font-size: 1.07rem; font-weight: 300; font-family: Lato, sans-serif; line-height: 1.5;\">&nbsp; &nbsp; &nbsp;Call us at (415) 944-2464&nbsp;</span></h4></div>",
-          "_styles": {
-            "P": {
-              "text-align": "left"
-            },
-            "DIV": {
-              "text-align": "left"
-            },
-            "H4": {
-              "text-align": "left"
-            }
-          }
+          "text1": "<p><a href=\"http://#\"><script type=\"text/javascript\">app_id=\"588ae3be06c04c4b4dad441e\";distribution_key=\"dist_3\";</script><script type=\"text/javascript\" src=\"https://loader.knack.com/588ae3be06c04c4b4dad441e/dist_3/knack.js\"></script><div id=\"knack-dist_3\">Standby...</div></a></p>",
+          "text2": "<h4><br></h4><h4>Step 1<br><span style=\"font-size: 1.07rem; font-weight: 300; font-family: Lato, sans-serif; line-height: 1.5;\">Enter the details about your project</span></h4><h4>Step 2<br><span style=\"font-size: 1.07rem; font-weight: 300; font-family: Lato, sans-serif; line-height: 1.5;\">Upload a PDF of your floorplans</span></h4><h4>Step 3<br><span style=\"font-size: 1.07rem; font-weight: 300; font-family: Lato, sans-serif; line-height: 1.5;\">Confirm the schedule for capturing the HoloWalk</span></h4><h4><br></h4><h4>Need Help?<br><span style=\"font-size: 1.07rem; font-weight: 300; font-family: Lato, sans-serif; line-height: 1.5;\">Call us at (415) 944-2464 for immediate assistance.</span></h4>"
         },
         {
           "_tags": [
