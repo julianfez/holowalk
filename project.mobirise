@@ -308,7 +308,7 @@
             "paddingBottom": "1",
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x12004.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x12005.jpg",
             "bgColor": "#ffffff",
             "bgColorRadio": false,
             "overlay": true,
@@ -2024,7 +2024,7 @@
             "paddingBottom": "1",
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x12004.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x12005.jpg",
             "bgColor": "#ffffff",
             "bgColorRadio": false,
             "overlay": true,
@@ -2114,7 +2114,7 @@
     },
     "signup.html": {
       "settings": {
-        "title": "HoloWalk - New Client Signup",
+        "title": "HoloWalk - New HoloWalk Request",
         "meta_descr": ""
       },
       "components": [
