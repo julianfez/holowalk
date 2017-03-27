@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 99,
+    "uniqCompNum": 101,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-32-128x128.png",
     "noImageResize": "",
@@ -308,7 +308,7 @@
             "paddingBottom": "1",
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x12005.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x12000.jpg",
             "bgColor": "#ffffff",
             "bgColorRadio": false,
             "overlay": true,
@@ -563,6 +563,15 @@
             "Extension"
           ],
           "_name": "extAccordion1",
+          "_styles": {
+            "SPAN": {
+              "text-align": "left",
+              "color": "#273a59"
+            },
+            "P": {
+              "color": "#273a59"
+            }
+          },
           "_anchor": "extAccordion1-2p",
           "_params": {
             "collapseAll": false,
@@ -595,76 +604,46 @@
           "title5": "<a role=\"button\" class=\"text-primary\" data-toggle=\"collapse\" data-parent=\"#extAccordion1-2p-init\" data-core=\"\" href=\"#collapseFiveextAccordion1-2p\" aria-expanded=\"true\" aria-controls=\"collapseFive\">What do you need to get started?</a>",
           "text5": "<p>Project setup is straightforward... we just need a PDF of the floor plans for all areas of the project to be captured. We'll upload the plans into our HoloWalk capture tool, indicating all the locations where captures will be made on the floor plans -- before the technician visits the site. We want to make sure we've covered any and all critical areas that are important to you or your client.</p>",
           "title6": "<a role=\"button\" class=\"text-primary\" data-toggle=\"collapse\" data-parent=\"#extAccordion1-2p-init\" data-core=\"\" href=\"#collapseSixextAccordion1-2p\" aria-expanded=\"true\" aria-controls=\"collapseSix\">Who has access? Are my HoloWalks confidential?</a>",
-          "text6": "<p>You, the client, have the final say in who has access. As a default, only those who have the login credentials you establish at the beginning of the project will be able to access your HoloWalks. At your discretion, can may share a HoloWalk with someone else by creating a unique link and sending it to the target recipient via email or text.</p>",
-          "_styles": {
-            "SPAN": {
-              "text-align": "left",
-              "color": "#273a59"
-            },
-            "P": {
-              "color": "#273a59"
-            }
-          }
+          "text6": "<p>You, the client, have the final say in who has access. As a default, only those who have the login credentials you establish at the beginning of the project will be able to access your HoloWalks. At your discretion, can may share a HoloWalk with someone else by creating a unique link and sending it to the target recipient via email or text.</p>"
         },
         {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffffff",
+              "font-size": "36px"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#efefef"
+            }
+          },
           "_tags": [
             "Theme"
           ],
-          "_name": "form1",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#ffffff"
-            },
-            ".mbr-section-title": {
-              "color": "#ffffff"
-            }
-          },
-          "_anchor": "form1-1m",
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-2s",
           "_params": {
-            "labelsColor": "#ffffff",
-            "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingTop": "3",
+            "paddingBottom": 3,
             "bgImageRadio": true,
             "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x1200.jpg",
             "bgColor": "#ffffff",
             "bgColorRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.8",
-            "overlayColor": "#273a59",
-            "showTitle": true,
-            "showSubTitle": true
-          },
-          "title": "So What Do You Think?",
-          "subtitle": "Send us a quick note with your questions, comments, ideas -- whatever is on your mind!",
-          "form": {
-            "action": "david@holowalk.com",
-            "alerts": {
-              "success": "Thanks for taking the time to write! We'll get back to you very soon."
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "fields": {
-              "name": {
-                "title": "Name",
-                "visible": true,
-                "customTitle": "Name*"
-              },
-              "email": {
-                "title": "Email",
-                "visible": true,
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "title": "Phone",
-                "visible": true,
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message"
-              }
-            }
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#273a59",
+            "inverse": false,
+            "showButtons": true,
+            "showTitle": true,
+            "showText": true
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LETS DO THIS!</a>",
+          "title": "Ready To Get Started?",
+          "text": "We know you've got a lot on your plate... We're here to make your job easier. <br><br>"
         },
         {
           "_tags": [
@@ -2045,7 +2024,7 @@
             "paddingBottom": "1",
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x12005.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x12000.jpg",
             "bgColor": "#ffffff",
             "bgColorRadio": false,
             "overlay": true,
