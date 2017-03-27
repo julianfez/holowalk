@@ -308,7 +308,7 @@
             "paddingBottom": "1",
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x120020.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x120021.jpg",
             "bgColor": "#ffffff",
             "bgColorRadio": false,
             "overlay": true,
@@ -2024,7 +2024,7 @@
             "paddingBottom": "1",
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x120020.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x120021.jpg",
             "bgColor": "#ffffff",
             "bgColorRadio": false,
             "overlay": true,
@@ -2285,7 +2285,7 @@
             "bgColor": "#fff"
           },
           "text1": "<p><a href=\"http://#\"><script type=\"text/javascript\">app_id=\"588ae3be06c04c4b4dad441e\";distribution_key=\"dist_3\";</script><script type=\"text/javascript\" src=\"https://loader.knack.com/588ae3be06c04c4b4dad441e/dist_3/knack.js\"></script><div id=\"knack-dist_3\">Standby...</div></a></p>",
-          "text2": "<h4><br></h4><h4><br></h4><p><br></p><h4>Step 1<br><span style=\"font-size: 1.07rem; font-weight: 300; font-family: Lato, sans-serif; line-height: 1.5;\">Enter the details about your project</span></h4><h4>Step 2<br><span style=\"font-size: 1.07rem; font-weight: 300; font-family: Lato, sans-serif; line-height: 1.5;\">Upload a PDF of your floorplans</span></h4><h4>Step 3<br><span style=\"font-size: 1.07rem; font-weight: 300; font-family: Lato, sans-serif; line-height: 1.5;\">Confirm the schedule for capturing the HoloWalk<br><br></span></h4><h4><span style=\"color: inherit; font-size: 1.5rem; line-height: 1.1;\">Need Help?</span><br></h4><h4><span style=\"font-size: 1.07rem; font-weight: 300; font-family: Lato, sans-serif; line-height: 1.5;\">Call us at (415) 944-2464 for immediate assistance.</span></h4>"
+          "text2": "<h4><br></h4><h4><br></h4><p><br></p><p><br></p><h4>Step 1<br><span style=\"font-size: 1.07rem; font-weight: 300; font-family: Lato, sans-serif; line-height: 1.5;\">Enter the details about your project</span></h4><h4>Step 2<br><span style=\"font-size: 1.07rem; font-weight: 300; font-family: Lato, sans-serif; line-height: 1.5;\">Upload a PDF of your floorplans</span></h4><h4>Step 3<br><span style=\"font-size: 1.07rem; font-weight: 300; font-family: Lato, sans-serif; line-height: 1.5;\">Confirm the schedule for capturing the HoloWalk<br><br></span></h4><h4><span style=\"color: inherit;\"><span style=\"font-size: 1.5rem; line-height: 1.1;\">Need Help?</span><br></span><span style=\"color: inherit; font-family: Lato, sans-serif; font-size: 1.07rem; font-weight: 300; line-height: 1.5;\">Call us at (415) 944-2464 for immediate assistance.</span></h4>"
         },
         {
           "_tags": [
