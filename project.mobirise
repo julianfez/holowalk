@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "HoloWalk - Main",
-    "currentPage": "signup.html",
+    "currentPage": "faq.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -308,7 +308,7 @@
             "paddingBottom": "1",
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x120016.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x120017.jpg",
             "bgColor": "#ffffff",
             "bgColorRadio": false,
             "overlay": true,
@@ -641,7 +641,7 @@
             "showTitle": true,
             "showText": true
           },
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">LETS DO THIS!</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"signup.html\" data-toolbar=\"-mbrBtnMove\">LETS DO THIS!</a>",
           "title": "Ready To Get Started?",
           "text": "We know you've got a lot on your plate... We're here to make your job easier. <br><br>"
         },
@@ -2024,7 +2024,7 @@
             "paddingBottom": "1",
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x120016.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/blue-print-background-image-2000x120017.jpg",
             "bgColor": "#ffffff",
             "bgColorRadio": false,
             "overlay": true,
