@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 113,
+    "uniqCompNum": 115,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-32-128x128.png",
     "noImageResize": "",
@@ -212,6 +212,19 @@
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"faq.html\">faq</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"client_login.html\">client login</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-35",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools <a href=\"http://google.com/\">available</a> today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>"
+        },
+        {
           "_styles": {
             ".mbr-section-title, p": {
               "color": "#fff"
@@ -260,13 +273,13 @@
             "Theme"
           ],
           "_name": "content1",
-          "_anchor": "content1-34",
+          "_anchor": "content1-36",
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<p><a href=\"http://#\"><iframe id=\"holobuilderIframe\" width=\"1200\" height=\"900\" src=\"https://holobuilder.com/app/index.html?e=1&amp;p=4656540202041344#player/4656540202041344?options=849&amp;scene=147076949830217\" border=\"0\" frameborder=\"0\" style=\"border: 0\" allowfullscreen=\"\" mozallowfullscreen=\"\" webkitallowfullscreen=\"\" title=\"Captured by HoloWalk\"></iframe></a></p>"
+          "text": "<p><a href=\"http://#\"><iframe id=\"holobuilderIframe\" width=\"1200\" height=\"900\" src=\"https://holobuilder.com/app/index.html?e=1&amp;p=6254537687957504#player/6254537687957504?options=849&amp;scene=76148244669367\" border=\"0\" frameborder=\"0\" style=\"border: 0\" allowfullscreen=\"\" mozallowfullscreen=\"\" webkitallowfullscreen=\"\" title=\"Captured by HoloWalk\"></iframe></a></p>"
         },
         {
           "_tags": [
